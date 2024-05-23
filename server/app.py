@@ -6,6 +6,12 @@
 from flask import request
 from flask_restful import Resource
 
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
+from flask import jsonify, abort, render_template
+
 # Local imports
 from config import app, db, api
 # Add your model imports
@@ -14,8 +20,9 @@ from config import app, db, api
 # Views go here!
 
 @app.route('/')
-def index():
-    return '<h1>Project Server</h1>'
+@app.route('/<int:id>')
+def index(id=0):
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
