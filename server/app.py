@@ -24,6 +24,14 @@ from config import app, db, api
 def index(id=0):
     return render_template("index.html")
 
+@app.route('/projects')
+def show_projects():
+    return render_template("index.html")
+
+@app.route('/aboutpage')
+def about_page():
+    return render_template("index.html")
+
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)

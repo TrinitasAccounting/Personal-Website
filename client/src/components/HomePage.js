@@ -49,13 +49,13 @@ export default function HomePage() {
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <a
-                            href="/"
-                            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            href="/projects"
+                            className="rounded-md bg-orange-700 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
-                            Get started
+                            My Projects
                         </a>
-                        <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
-                            Learn more <span aria-hidden="true">→</span>
+                        <a href="/aboutpage" className="text-sm font-semibold leading-6 text-gray-900">
+                            Learn more about me<span aria-hidden="true">→</span>
                         </a>
                     </div>
                 </div>
@@ -72,6 +72,11 @@ export default function HomePage() {
                         </div>
                     </div>
                 </div>
+                {/* <div className='m-4 grid gap-4 sm:grid-cols-10 h-[100px] shadow-2xl'>
+                    <div className=' col-span-2'></div>
+                    <h1 className=' col-span-1'>Your customerssssssssssssss</h1>
+                    <h1 className=' col-span-4'>New feature that I just added in </h1>
+                </div > */}
             </div>
         </div>
     )
