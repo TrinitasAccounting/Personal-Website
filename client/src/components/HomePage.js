@@ -1,6 +1,8 @@
 
 
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
+// import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import Headshot from '../images/HeadshotZoomed.png'
+
 
 export default function HomePage() {
     return (
@@ -25,13 +27,23 @@ export default function HomePage() {
             </svg>
             <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
-                    <img
-                        className="h-11"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                        alt="Your Company"
-                    />
+                    <a href="/aboutpage" className="group block flex-shrink-0">
+                        <div className="flex items-center">
+                            <div>
+                                <img
+                                    className="inline-block h-[80px] w-[80px] rounded-full"
+                                    src={Headshot}
+                                    alt=""
+                                />
+                            </div>
+                            <div className="ml-3">
+                                <p className="text-md font-medium text-gray-700 group-hover:text-gray-900">Clay Mangum</p>
+                                <p className="text-sm font-medium text-gray-500 group-hover:text-gray-700">About Me</p>
+                            </div>
+                        </div>
+                    </a>
                     <div className="mt-24 sm:mt-32 lg:mt-16">
-                        <a href='/' className="inline-flex space-x-6">
+                        {/* <a href='/' className="inline-flex space-x-6">
                             <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
                                 What's new
                             </span>
@@ -39,13 +51,13 @@ export default function HomePage() {
                                 <span>Just shipped v1.0</span>
                                 <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
                             </span>
-                        </a>
+                        </a> */}
                     </div>
                     <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                        Software Engineering Portfolio for Clay Mangum
+                        Software Engineer and SaaS business enthusiast
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        I am a software engineer with experience using React.js, Flask, SQL, Tailwind, Material UI, and Power BI
+                        Full stack developer with expertise using Javascript, Python, React.js, Flask, SQL, Tailwind, Material UI, and Power BI
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <a
