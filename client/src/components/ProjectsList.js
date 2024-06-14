@@ -1,4 +1,5 @@
 
+import FinancialExpenseTrackerDashboardScreenshot from '../images/FinancialExpenseTrackerDashboardScreenshot.png'
 
 const posts = [
     {
@@ -8,7 +9,7 @@ const posts = [
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
-            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+            FinancialExpenseTrackerDashboardScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind, Material-UI', href: '/' },
@@ -33,6 +34,69 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind', href: '/' },
+        author: {
+            name: 'Clay Mangum',
+            role: 'Co-Founder / CTO',
+            href: '/',
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            github: 'link/github.com',
+            deployed: 'website.com'
+        },
+    },
+    {
+        id: 1,
+        title: 'NBA Stats Database',
+        href: '/',
+        description:
+            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+        imageUrl:
+            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind', href: '/' },
+        author: {
+            name: 'Clay Mangum',
+            role: 'Co-Founder / CTO',
+            href: '/',
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            github: 'link/github.com',
+            deployed: 'website.com'
+        },
+    },
+    {
+        id: 1,
+        title: 'Trivia Game',
+        href: '/',
+        description:
+            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+        imageUrl:
+            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        buildType: { title: 'CLI', stack: 'Python, CLI', href: '/' },
+        author: {
+            name: 'Clay Mangum',
+            role: 'Co-Founder / CTO',
+            href: '/',
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            github: 'link/github.com',
+            deployed: 'website.com'
+        },
+    },
+    {
+        id: 1,
+        title: 'Crypto Dashboard',
+        href: '/',
+        description:
+            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+        imageUrl:
+            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        buildType: { title: 'Vanilla Javascript', stack: 'Javascript', href: '/' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
