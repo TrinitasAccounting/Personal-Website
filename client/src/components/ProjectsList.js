@@ -3,12 +3,14 @@ import FinancialExpenseTrackerDashboardScreenshot from '../images/FinancialExpen
 import NBAStatsTracker from '../images/NBAStatsTracker.png';
 import ConstuctASaveDistributorPageScreenshot from '../images/ConstuctASaveDistributorPageScreenshot.png';
 import TriviaGameScreenshot from '../images/TriviaGameScreenshot.png';
+import CryptoDashboardScreenshot from '../images/CryptoDashboardScreenshot.png';
+import FrankensteinPhoneBookScreenshot from '../images/FrankensteinPhoneBookScreenshot.png';
 
 const posts = [
     {
         id: 1,
         title: 'Financial Expense Tracker',
-        href: '/',
+        href: '#',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
@@ -95,7 +97,7 @@ const posts = [
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
-            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+            CryptoDashboardScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         buildType: { title: 'Vanilla Javascript', stack: 'Javascript', href: '/' },
@@ -111,12 +113,12 @@ const posts = [
     },
     {
         id: 1,
-        title: 'Cat Phonebook',
+        title: 'Frenkenstein Phonebook',
         href: '/',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
-            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+            FrankensteinPhoneBookScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         buildType: { title: 'Frontend', stack: 'React, Tailwind', href: '/' },
