@@ -11,8 +11,9 @@ const posts = [
         id: 1,
         title: 'Financial Expense Tracker',
         href: '#',
+        smallDescription: 'App allowing users to visualize and check their financial health on one simple dashboard.',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+            'Utilizing Flask backend with SQLAlchemy ORM, and a Postgresql database. Users can import or enter bank transactions into their transactions list. The React frontend uses algorithms to calculate total expenses, COGS, and revenue values, plotting it on the dashboard using Tailwindcss and Material UI charting. This app allows the user to import transactions every month so they can immediately see their financial picture for the current month and their estimated tax liability',
         imageUrl:
             FinancialExpenseTrackerDashboardScreenshot,
         date: 'Mar 16, 2020',
@@ -30,7 +31,7 @@ const posts = [
         },
     },
     {
-        id: 1,
+        id: 2,
         title: 'Construct-a-save',
         href: '/',
         description:
@@ -38,20 +39,20 @@ const posts = [
         imageUrl:
             ConstuctASaveDistributorPageScreenshot,
         datetime: '2020-03-16',
-        buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind', href: '/' },
-        demo: 'https://___',
+        buildType: { title: 'Full Stack', stack: 'React, Flask, SQLite, Tailwind', href: '/' },
+        demo: 'https://www.loom.com/share/37fcfda399304113b1d83ab5bd5e86b6?sid=a28ff3e2-ab29-49c6-a1a9-3d1f5e0c1c8b',
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
             href: '/',
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-            github: 'link/github.com',
+            github: 'https://github.com/TrinitasAccounting/Construct-a-save',
             deployed: 'website.com'
         },
     },
     {
-        id: 1,
+        id: 3,
         title: 'NBA Stats Database',
         href: '/',
         description:
@@ -60,20 +61,20 @@ const posts = [
             NBAStatsTracker,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind', href: '/' },
-        demo: 'https://___',
+        buildType: { title: 'Full Stack', stack: 'React, Flask, SQLite, CSS', href: '/' },
+        demo: 'https://www.loom.com/share/2cda6a60f00f4b3fb0175c39ca7117bd?sid=d33463e7-ad5f-4a88-8958-b35f1e453de1',
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
             href: '/',
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-            github: 'link/github.com',
+            github: 'https://github.com/TrinitasAccounting/python-p4-project-template',
             deployed: 'website.com'
         },
     },
     {
-        id: 1,
+        id: 4,
         title: 'Trivia Game',
         href: '/',
         description:
@@ -82,7 +83,7 @@ const posts = [
             TriviaGameScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        demo: 'https://___',
+        demo: 'https://www.loom.com/share/fb8d1db6b7de42e3958a93acb259810f?sid=99bc1700-7f31-4c23-9237-5ac9e83e2921',
         buildType: { title: 'CLI', stack: 'Python, CLI', href: '/' },
         author: {
             name: 'Clay Mangum',
@@ -90,34 +91,12 @@ const posts = [
             href: '/',
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-            github: 'link/github.com',
+            github: 'https://github.com/TrinitasAccounting/python-p3-v2-final-project-template',
             deployed: 'website.com'
         },
     },
     {
-        id: 1,
-        title: 'Crypto Dashboard',
-        href: '/',
-        description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-        imageUrl:
-            CryptoDashboardScreenshot,
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        demo: 'https://___',
-        buildType: { title: 'Vanilla Javascript', stack: 'Javascript', href: '/' },
-        author: {
-            name: 'Clay Mangum',
-            role: 'Co-Founder / CTO',
-            href: '/',
-            imageUrl:
-                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-            github: 'link/github.com',
-            deployed: 'website.com'
-        },
-    },
-    {
-        id: 1,
+        id: 5,
         title: 'Frenkenstein Phonebook',
         href: '/',
         description:
@@ -127,14 +106,36 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         demo: 'https://___',
-        buildType: { title: 'Frontend', stack: 'React, Tailwind', href: '/' },
+        buildType: { title: 'Frontend', stack: 'React, CSS', href: '/' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
             href: '/',
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-            github: 'link/github.com',
+            github: 'https://github.com/TrinitasAccounting/Frankenstein-Phonebook',
+            deployed: 'website.com'
+        },
+    },
+    {
+        id: 6,
+        title: 'Crypto Dashboard',
+        href: '/',
+        description:
+            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+        imageUrl:
+            CryptoDashboardScreenshot,
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        demo: 'https://www.loom.com/share/c649d26093e64c5f96898001b83a0768?sid=1e5ab4be-e628-40a0-b88a-1c158300f736',
+        buildType: { title: 'Vanilla Javascript', stack: 'Javascript', href: '/' },
+        author: {
+            name: 'Clay Mangum',
+            role: 'Co-Founder / CTO',
+            href: '/',
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            github: 'https://github.com/TrinitasAccounting/Crypto-Dashboard',
             deployed: 'website.com'
         },
     },
@@ -169,12 +170,23 @@ export default function ProjectsList() {
                                         {/* <time dateTime={post.datetime} className="text-gray-500">
                                             {post.date}
                                         </time> */}
-                                        <a
-                                            href={post.buildType.href}
-                                            className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                                        >
-                                            {post.buildType.title}
-                                        </a>
+                                        {post.buildType.title === 'Full Stack' ?
+                                            <h5
+                                                // href={post.demo}
+                                                className="relative z-10 rounded-full bg-green-100 px-3 py-1.5 font-medium text-green-800"
+                                            >
+                                                {post.buildType.title}
+                                            </h5>
+
+                                            :
+                                            <h5
+                                                // href={post.demo}
+                                                className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
+                                            >
+                                                {post.buildType.title}
+                                            </h5>
+
+                                        }
                                         <h5>{post.buildType.stack}</h5>
                                     </div>
                                     <div className="group relative max-w-xl">
@@ -184,31 +196,43 @@ export default function ProjectsList() {
                                                 {post.title}
                                             </a>
                                         </h3>
-                                        <p className="mt-5 text-sm leading-6 text-gray-600">{post.description}</p>
+                                        <p className="mt-3 text-md leading-6 text-gray-600">{post.smallDescription}</p>
+                                        <p className="mt-3 text-sm leading-6 text-gray-600">{post.description}</p>
                                     </div>
                                     <div className="mt-2 flex border-t border-gray-900/5 pt-2">
-                                        <div className="relative flex items-center gap-x-4">
+                                        <div className="relative flex items-center gap-x-4 grid-cols-3">
                                             {/* <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" /> */}
                                             <div className="text-sm leading-6">
                                                 <p className="font-semibold text-blue-600">
                                                     <a href={post.author.github}>
-                                                        <span className="absolute inset-0" />
+
                                                         Github
                                                     </a>
                                                 </p>
-                                                <p className="font-semibold text-blue-600">
-                                                    <a href={post.author.deployed}>
-                                                        <span className="absolute inset-0" />
-                                                        Deployed Website
-                                                    </a>
-                                                </p>
+                                            </div>
+
+                                            <div>
                                                 <p className="font-semibold text-blue-600">
                                                     <a href={post.demo}>
-                                                        <span className="absolute inset-0 " />
+
                                                         Demo
                                                     </a>
                                                 </p>
-                                                {/* <p className="text-gray-600">{post.author.role}</p> */}
+
+                                            </div>
+
+                                            <div>
+                                                {post.title === 'Financial Expense Tracker' ?
+                                                    <p className="font-semibold text-blue-600">
+                                                        <a href={post.author.deployed}>
+
+                                                            Deployment
+                                                        </a>
+                                                    </p>
+                                                    :
+                                                    <></>
+
+                                                }
                                             </div>
                                         </div>
                                     </div>
