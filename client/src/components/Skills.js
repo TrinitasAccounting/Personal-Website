@@ -3,28 +3,24 @@
 import { EllipsisVerticalIcon } from '@heroicons/react/20/solid'
 
 const projects = [
-    { name: 'Graph API', initials: 'GA', bgColor: 'bg-pink-600' },
-    { name: 'Component Design', initials: 'CD', bgColor: 'bg-purple-600' },
-    { name: 'Templates', initials: 'T', bgColor: 'bg-yellow-500' },
-    { name: 'React Components', initials: 'RC', bgColor: 'bg-green-500' },
-    { name: 'Javascript', initials: 'JS', bgColor: 'bg-green-500' },
-    { name: 'Python', initials: 'Py', bgColor: 'bg-green-500' },
-    { name: 'Flask', initials: 'Fl', bgColor: 'bg-green-500' },
-    { name: 'SQL', initials: 'SQL', bgColor: 'bg-green-500' },
-    { name: 'React.js', initials: 'R', bgColor: 'bg-green-500' },
-    { name: 'Node.js', initials: 'N', bgColor: 'bg-green-500' },
-    { name: 'Postgresql', initials: 'Ps', bgColor: 'bg-green-500' },
-    { name: 'Tailwindcss', initials: 'T', bgColor: 'bg-green-500' },
-    { name: 'Material UI', initials: 'MUI', bgColor: 'bg-green-500' },
-    { name: 'Microsoft Power BI', initials: 'BI', bgColor: 'bg-green-500' },
-    { name: 'Tableau', initials: 'Ta', bgColor: 'bg-green-500' },
-    { name: 'Pinescript', initials: 'PS', bgColor: 'bg-green-500' },
-    { name: 'OOP', initials: 'OOP', bgColor: 'bg-green-500' },
-    { name: 'REST-API', initials: 'RA', bgColor: 'bg-green-500' },
-    { name: 'CSS', initials: 'CSS', bgColor: 'bg-green-500' },
-    { name: 'C++', initials: 'C', bgColor: 'bg-green-500' },
-    { name: 'Matlab', initials: 'ML', bgColor: 'bg-green-500' },
-    { name: 'MQL5', initials: 'MQ', bgColor: 'bg-green-500' },
+    { name: 'Javascript', initials: 'JS', bgColor: 'bg-gray-300' },
+    { name: 'Python', initials: 'Py', bgColor: 'bg-gray-300' },
+    { name: 'Flask', initials: 'Fl', bgColor: 'bg-gray-300' },
+    { name: 'SQL', initials: 'SQL', bgColor: 'bg-gray-300' },
+    { name: 'React.js', initials: 'R', bgColor: 'bg-gray-300' },
+    { name: 'Node.js', initials: 'N', bgColor: 'bg-gray-300' },
+    { name: 'Postgresql', initials: 'Ps', bgColor: 'bg-gray-300' },
+    { name: 'Tailwindcss', initials: 'T', bgColor: 'bg-gray-300' },
+    { name: 'Material UI', initials: 'MUI', bgColor: 'bg-gray-300' },
+    { name: 'Microsoft Power BI', initials: 'BI', bgColor: 'bg-gray-300' },
+    { name: 'Tableau', initials: 'Ta', bgColor: 'bg-gray-300' },
+    { name: 'Pinescript', initials: 'PS', bgColor: 'bg-gray-300' },
+    { name: 'OOP', initials: 'OOP', bgColor: 'bg-gray-300' },
+    { name: 'REST-API', initials: 'RA', bgColor: 'bg-gray-300' },
+    { name: 'CSS', initials: 'CSS', bgColor: 'bg-gray-300' },
+    { name: 'C++', initials: 'C', bgColor: 'bg-gray-300' },
+    { name: 'Matlab', initials: 'ML', bgColor: 'bg-gray-300' },
+    { name: 'MQL5', initials: 'MQ', bgColor: 'bg-gray-300' },
 ]
 
 function classNames(...classes) {
@@ -35,13 +31,13 @@ export default function Skills() {
     return (
         <div>
             {/* <h2 className="text-sm font-medium text-gray-500">Pinned Projects</h2> */}
-            <ul role="list" className="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5">
+            <ul role="list" className="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-12 lg:grid-cols-5">
                 {projects.map((project) => (
                     <li key={project.name} className="col-span-1 flex rounded-md shadow-sm">
                         <div
                             className={classNames(
                                 project.bgColor,
-                                'flex w-10 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-medium text-white',
+                                'flex w-10 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-semibold text-white',
                             )}
                         >
                             {project.initials}

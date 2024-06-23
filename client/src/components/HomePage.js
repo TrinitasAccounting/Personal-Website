@@ -58,7 +58,10 @@ export default function HomePage() {
                         Software Engineer and SaaS business enthusiast
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Full stack developer with expertise using Javascript, Python, React.js, Flask, SQL, Tailwind, Material UI, and Power BI
+                        Former professional beach volleyball player.
+                    </p>
+                    <p className="text-lg leading-8 text-gray-600">
+                        Now a full stack developer with expertise using Javascript, Python, React.js, Flask, SQL, Tailwind, Material UI, and Power BI
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <a

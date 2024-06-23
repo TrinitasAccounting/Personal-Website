@@ -32,64 +32,80 @@ import Skills from "./Skills";
 
 const timeline = [
     {
-        name: 'Founded company',
+        name: 'B.S. in Mechanical Engineering',
         description:
-            'Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.',
-        date: 'Aug 2021',
-        dateTime: '2021-08',
+            'Completed 2 years of C++ and Matlab during my undergradute major. Mechanical engineer is a mix of multiple engineering specialities (mechanical, electrical, industrial, civil, and computer programming)',
+        date: 'May 2017',
+        dateTime: '2017-05',
+        school: 'Clemson University'
     },
     {
-        name: 'Secured $65m in funding',
+        name: 'MBA with specialization in finance and startup companies',
         description:
-            'Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.',
-        date: 'Dec 2021',
-        dateTime: '2021-12',
+            'Learned everything about how a business functions and I started my first software business during this program. Launching my financial software business at the end of graduate school.',
+        date: 'August 2019',
+        dateTime: '2019-08',
+        school: 'Clemson University, Graduate School of Business'
     },
     {
-        name: 'Released beta',
+        name: 'Full Stack Coding Bootcamp',
         description:
-            'Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.',
-        date: 'Feb 2022',
-        dateTime: '2022-02',
-    },
-    {
-        name: 'Global launch of product',
-        description:
-            'Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.',
-        date: 'Dec 2022',
-        dateTime: '2022-12',
-    },
+            'Flatiron program was heavily focused on learning javascript and python. And how to build real world full stack applications using Flask, SQL, and React.js',
+        date: 'May 2024',
+        dateTime: '2024-05',
+        school: 'Flatiron School'
+    }
 ]
 const jobOpenings = [
     {
         id: 1,
-        role: 'Algorithm Developer',
-        company: 'FTMO',
+        role: 'Algorithm Developer ',
+        company: 'FTMO Hege Fund',
+        timeline: 'Mar 2022 - Present',
         href: '/',
         description:
-            'Design and programmed forex trading algorithms for a hedge fund',
-        salary: '$75,000 USD',
-        location: 'San Francisco, CA',
-    },
-    {
-        id: 2,
-        role: 'Laravel developer',
-        company: 'FTMO',
-        href: '/',
-        description:
-            'Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.',
-        salary: '$125,000 USD',
-        location: 'San Francisco, CA',
+            'I developed trading indicators and algorithms using PineScript or MQL5 programming languages for professional traders. The algorithms trade fully automated on the ForEx market, trading $155k in total of the hedge fund\'s capital. I built out the program logic for all algorithms and worked with a developmental team half of the time. Together we built out fully functional algorithms that successfully generated profit for the hedge fund and users.',
+
     },
     {
         id: 3,
-        role: 'React Native developer',
-        company: 'FTMO',
+        role: 'Junior Software Developer Internship',
+        company: 'MyPrice.Best',
+        timeline: 'May 2024 - Present',
         href: '/',
         description:
-            'Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.',
-        salary: '$105,000 USD',
-        location: 'San Francisco, CA',
+            'Working with a start up company in the healthcare industry, to develop and build their software web application. Developing using a stack of Flask backend, Postgresql, Bcrpyt for password authorization, React.js, Tailwind, and Material UI.  ',
+
+    },
+    // {
+    //     id: 4,
+    //     role: 'Outsourced CFO',
+    //     company: 'Western Trio',
+    //     timeline: 'May 2024 - Present',
+    //     href: '/',
+    //     description:
+    //         'Work as a part time CFO and Financial advisor for companies. Most companies are technology or construction related businesses. My goal is to grow revenue, increase net income, and improve cash flow.',
+
+    // },
+    {
+        id: 5,
+        role: 'Sales Engineer',
+        company: 'Quail Systems',
+        timeline: 'Dec 2022 - Jan 2024',
+        href: '/',
+        description:
+            'I worked with many industries (restaurants, hospitals, hotels, cruise lines, etc.) to sell our disinfection technology into their business. Small company with industry disrupting technology, which I sold and worked with government agencies to bring a deeper understanding on the product. ',
+
+    },
+    {
+        id: 2,
+        role: 'Founder & Power BI Developer / Analyst',
+        company: 'Trinitas Accounting',
+        timeline: 'Feb 2019 - Feb 2022',
+        href: '/',
+        description:
+            'Designed financial software analytics using Power BI and Tableau, that I launched to small business owners. Queried data directly from their accounting software, to present real time financial information to the users (via mobile and desktop). Worked directly with a Quickbooks API and pulled data into a relational database, so Power BI could properly map it. Building our analytic visualizations for the database data overall.Developed and successfully updated & maintained this software for business owners until 2022. Then shifted fully into an outsourced CFO role helping businesses gain funding and/or improve their business’s financial situation.',
+
     },
 ]
 const footerNavigation = {
@@ -200,89 +216,7 @@ export default function AboutPage() {
 
     return (
         <div className="bg-white">
-            {/* Header */}
-            {/* <header className="absolute inset-x-0 top-0 z-50">
-                <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-                    <div className="flex lg:flex-1">
-                        <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
-                            <img
-                                className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                alt=""
-                            />
-                        </a>
-                    </div>
-                    <div className="flex lg:hidden">
-                        <button
-                            type="button"
-                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                            onClick={() => setMobileMenuOpen(true)}
-                        >
-                            <span className="sr-only">Open main menu</span>
-                            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-                        </button>
-                    </div>
-                    <div className="hidden lg:flex lg:gap-x-12">
-                        {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
-                                {item.name}
-                            </a>
-                        ))}
-                    </div>
-                    <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Log in <span aria-hidden="true">&rarr;</span>
-                        </a>
-                    </div>
-                </nav>
-                <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                    <div className="fixed inset-0 z-50" />
-                    <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                        <div className="flex items-center justify-between">
-                            <a href="#" className="-m-1.5 p-1.5">
-                                <span className="sr-only">Your Company</span>
-                                <img
-                                    className="h-8 w-auto"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                    alt=""
-                                />
-                            </a>
-                            <button
-                                type="button"
-                                className="-m-2.5 rounded-md p-2.5 text-gray-700"
-                                onClick={() => setMobileMenuOpen(false)}
-                            >
-                                <span className="sr-only">Close menu</span>
-                                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-                            </button>
-                        </div>
-                        <div className="mt-6 flow-root">
-                            <div className="-my-6 divide-y divide-gray-500/10">
-                                <div className="space-y-2 py-6">
-                                    {navigation.map((item) => (
-                                        <a
-                                            key={item.name}
-                                            href={item.href}
-                                            className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                        >
-                                            {item.name}
-                                        </a>
-                                    ))}
-                                </div>
-                                <div className="py-6">
-                                    <a
-                                        href="#"
-                                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                    >
-                                        Log in
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </DialogPanel>
-                </Dialog>
-            </header> */}
+
 
             <main className="isolate">
 
@@ -293,48 +227,19 @@ export default function AboutPage() {
                             Skills
                         </h2>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                            Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu.
-                            Cras purus nibh cursus sit eu in id. Integer vel nibh.
+                            List of skills that I have learned over my 6 years of programming. Starting with collegiate courses, through my bootcamp, and then to me building two software businesses as a founder.
                         </p>
                     </div>
                     <div className="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
                         <Skills />
-                        {/* <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">Mechanical Engineer</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-gray-900">Users on the platform</p>
-                                <p className="mt-2 text-base leading-7 text-gray-600">
-                                    Vel labore deleniti veniam consequuntur sunt nobis.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-white">Masters in Business Administration</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-white">
-                                    We’re proud that our customers have made over $8 billion in total revenue.
-                                </p>
-                                <p className="mt-2 text-base leading-7 text-gray-400">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-white">Software Engineering Bootcamp</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
-                                <p className="mt-2 text-base leading-7 text-indigo-200">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.
-                                </p>
-                            </div>
-                        </div> */}
+
                     </div>
                 </div>
 
 
 
                 {/* Education Section */}
-                <div className="mx-auto mt-12 max-w-7xl px-2 sm:mt-24 lg:px-2">
+                {/* <div className="mx-auto mt-12 max-w-7xl px-2 sm:mt-24 lg:px-2">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             Education
@@ -345,23 +250,18 @@ export default function AboutPage() {
                         </p>
                     </div>
                     <div className="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
-                        {/* <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">Mechanical Engineer</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-gray-900">Users on the platform</p>
-                                <p className="mt-2 text-base leading-7 text-gray-600">
-                                    Vel labore deleniti veniam consequuntur sunt nobis.
-                                </p>
-                            </div>
-                        </div> */}
+                        
                         <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-200 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
                             <p className="flex-none text-3xl font-bold tracking-tight text-black">B.S. in Mechanical Engineering</p>
                             <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                                 <p className="text-lg font-semibold tracking-tight text-black">
-                                    We’re proud that our customers have made over $8 billion in total revenue.
+                                    Completed 2 years of C++ and Matlab during my undergradute major
                                 </p>
                                 <p className="mt-2 text-base leading-7 text-gray-700">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas.
+                                    Clemson University
+                                </p>
+                                <p className="text-base leading-7 text-gray-700">
+                                    Graduated in 2017
                                 </p>
                             </div>
                         </div>
@@ -387,17 +287,9 @@ export default function AboutPage() {
                                 </p>
                             </div>
                         </div>
-                        {/* <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-white">Software Engineering Bootcamp</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
-                                <p className="mt-2 text-base leading-7 text-indigo-200">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.
-                                </p>
-                            </div>
-                        </div> */}
+                        
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* Work Experience Section */}
@@ -408,13 +300,12 @@ export default function AboutPage() {
                                 Work Experience
                             </h2>
                             <p className="mt-6 text-xl leading-8 text-gray-600">
-                                Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu.
-                                Cras purus nibh cursus sit eu in id.
+                                Job positions I have worked in and gained experience from over the years.
                             </p>
                             <img
                                 src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
                                 alt=""
-                                className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
+                                className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[1100px]"
                             />
                         </div>
                         <div className="w-full lg:max-w-xl lg:flex-auto">
@@ -430,9 +321,18 @@ export default function AboutPage() {
                                                     <span className="absolute inset-0" aria-hidden="true" />
                                                 </a>
                                             </dd>
+                                            <dt className="sr-only">Company</dt>
+                                            <dd className="mt-1 text-base font-base leading-7 text-gray-900">{opening.company}</dd>
+                                            <dt className="sr-only">Timeline</dt>
+                                            <dd className="mt-1 flex items-center gap-x-5 text-base leading-7 text-gray-500">
+                                                <svg viewBox="0 0 2 2" className="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
+                                                    <circle cx={1} cy={1} r={1} />
+                                                </svg>
+                                                {opening.timeline}
+                                            </dd>
                                             <dt className="sr-only">Description</dt>
                                             <dd className="mt-2 w-full flex-none text-base leading-7 text-gray-600">{opening.description}</dd>
-                                            <dt className="sr-only">Salary</dt>
+                                            {/* <dt className="sr-only">Salary</dt>
                                             <dd className="mt-4 text-base font-semibold leading-7 text-gray-900">{opening.salary}</dd>
                                             <dt className="sr-only">Location</dt>
                                             <dd className="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
@@ -440,23 +340,23 @@ export default function AboutPage() {
                                                     <circle cx={1} cy={1} r={1} />
                                                 </svg>
                                                 {opening.location}
-                                            </dd>
+                                            </dd> */}
                                         </dl>
                                     </li>
                                 ))}
                             </ul>
-                            <div className="mt-8 flex border-t border-gray-100 pt-8">
+                            {/* <div className="mt-8 flex border-t border-gray-100 pt-8">
                                 <a href="/" className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                                     View all openings <span aria-hidden="true">&rarr;</span>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
 
 
 
-                {/* Hero section */}
+                {/* Education section */}
                 <div className="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-7">
                     <div
                         className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
@@ -465,13 +365,11 @@ export default function AboutPage() {
                     <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
                             <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-                                Skills
+                                Education
                             </h1>
                             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-2 xl:row-start-2">
                                 <p className="text-lg leading-8 text-gray-600">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                                    amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                                    irure qui lorem cupidatat commodo.
+                                    How I moved from learning programming as an undergradute, to building a software business during graduate school, and then refinning and deeping my skills specifically related to software engineering.
                                 </p>
                             </div>
                             {/* <img
@@ -486,9 +384,9 @@ export default function AboutPage() {
 
                 {/* Timeline section */}
                 <div className="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
+                    <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         {timeline.map((item) => (
-                            <div key={item.name}>
+                            <div key={item.name} className="">
                                 <time
                                     dateTime={item.dateTime}
                                     className="flex items-center text-sm font-semibold leading-6 text-indigo-600"
@@ -503,6 +401,7 @@ export default function AboutPage() {
                                     />
                                 </time>
                                 <p className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{item.name}</p>
+                                <p className="mt-6 text-md font-semibold leading-8 tracking-tight text-gray-900">{item.school}</p>
                                 <p className="mt-1 text-base leading-7 text-gray-600">{item.description}</p>
                             </div>
                         ))}
@@ -510,7 +409,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Logo cloud */}
-                <div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
+                {/* <div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
                     <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
                         <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
                             Our customers love us
@@ -566,7 +465,7 @@ export default function AboutPage() {
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Content section */}
                 {/* <div className="mt-32 overflow-hidden sm:mt-40">

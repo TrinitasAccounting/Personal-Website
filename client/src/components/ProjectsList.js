@@ -17,6 +17,7 @@ const posts = [
             FinancialExpenseTrackerDashboardScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
+        demo: 'https://www.loom.com/share/1a45404952714e6493277eda672cf8dc?sid=391b318c-1dc9-495c-99f2-3234bf4ca87e',
         buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind, Material-UI', href: '/' },
         author: {
             name: 'Clay Mangum',
@@ -24,8 +25,8 @@ const posts = [
             href: '/',
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-            github: 'link/github.com',
-            deployed: 'website.com'
+            github: 'https://github.com/TrinitasAccounting/Financial-Expense-Tracker-Deployed',
+            deployed: 'https://financial-tracker-3ac5.onrender.com/'
         },
     },
     {
@@ -38,6 +39,7 @@ const posts = [
             ConstuctASaveDistributorPageScreenshot,
         datetime: '2020-03-16',
         buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind', href: '/' },
+        demo: 'https://___',
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
@@ -59,6 +61,7 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind', href: '/' },
+        demo: 'https://___',
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
@@ -79,6 +82,7 @@ const posts = [
             TriviaGameScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
+        demo: 'https://___',
         buildType: { title: 'CLI', stack: 'Python, CLI', href: '/' },
         author: {
             name: 'Clay Mangum',
@@ -100,6 +104,7 @@ const posts = [
             CryptoDashboardScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
+        demo: 'https://___',
         buildType: { title: 'Vanilla Javascript', stack: 'Javascript', href: '/' },
         author: {
             name: 'Clay Mangum',
@@ -121,6 +126,7 @@ const posts = [
             FrankensteinPhoneBookScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
+        demo: 'https://___',
         buildType: { title: 'Frontend', stack: 'React, Tailwind', href: '/' },
         author: {
             name: 'Clay Mangum',
@@ -150,11 +156,11 @@ export default function ProjectsList() {
                     <div className="mt-16 m-4 grid grid-cols-1  space-y-20 lg:mt-20 lg:space-y-20">
                         {posts.map((post) => (
                             <article key={post.id} className="relative isolate  flex flex-col gap-8 lg:flex-row">
-                                <div className="relative aspect-[16/9]  border-solid border-2 border-indigo-300 sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+                                <div className="relative aspect-[16/9] border-solid border-8 rounded-2xl border-gray-200 sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                                     <img
                                         src={post.imageUrl}
                                         alt=""
-                                        className="absolute inset-0 h-full w-full  bg-gray-50 object-cover"
+                                        className="absolute h-full w-full  bg-gray-50 object-cover "
                                     />
                                     <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                                 </div>
@@ -180,20 +186,26 @@ export default function ProjectsList() {
                                         </h3>
                                         <p className="mt-5 text-sm leading-6 text-gray-600">{post.description}</p>
                                     </div>
-                                    <div className="mt-6 flex border-t border-gray-900/5 pt-6">
+                                    <div className="mt-2 flex border-t border-gray-900/5 pt-2">
                                         <div className="relative flex items-center gap-x-4">
                                             {/* <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" /> */}
                                             <div className="text-sm leading-6">
-                                                <p className="font-semibold text-gray-900">
+                                                <p className="font-semibold text-blue-600">
                                                     <a href={post.author.github}>
                                                         <span className="absolute inset-0" />
-                                                        Github: {post.author.github}
+                                                        Github
                                                     </a>
                                                 </p>
-                                                <p className="font-semibold text-gray-900">
+                                                <p className="font-semibold text-blue-600">
                                                     <a href={post.author.deployed}>
                                                         <span className="absolute inset-0" />
-                                                        Deployed: {post.author.deployed}
+                                                        Deployed Website
+                                                    </a>
+                                                </p>
+                                                <p className="font-semibold text-blue-600">
+                                                    <a href={post.demo}>
+                                                        <span className="absolute inset-0 " />
+                                                        Demo
                                                     </a>
                                                 </p>
                                                 {/* <p className="text-gray-600">{post.author.role}</p> */}
