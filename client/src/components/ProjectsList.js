@@ -34,8 +34,9 @@ const posts = [
         id: 2,
         title: 'Construct-a-save',
         href: '/',
+        smallDescription: 'This app allows a contractor to receive customized pricing from multiple different suppliers. Giving the ability to price shop his supplies from each supplier in turn saving money. ',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+            'Utilizes Flask, Bcrypt Encryption Library, and Postgresql to allow users to sign up and login to the platform. Storing their user data in a cookie session. Using a React.js and Tailwindcss user interface, a contractor can add a distributor to their partnerships, and only those distributors are allowed to see that contractors proprietary list of productsThis project is still ongoing, but will result in a contractor being able to save money on their project expenses by giving them the ability to easily see who offers the lowest priced product at the time of purchase. ',
         imageUrl:
             ConstuctASaveDistributorPageScreenshot,
         datetime: '2020-03-16',
@@ -55,6 +56,7 @@ const posts = [
         id: 3,
         title: 'NBA Stats Database',
         href: '/',
+        smallDescription: 'test test test',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
@@ -77,6 +79,7 @@ const posts = [
         id: 4,
         title: 'Trivia Game',
         href: '/',
+        smallDescription: 'test test test',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
@@ -99,6 +102,7 @@ const posts = [
         id: 5,
         title: 'Frenkenstein Phonebook',
         href: '/',
+        smallDescription: 'test test test',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
@@ -121,6 +125,7 @@ const posts = [
         id: 6,
         title: 'Crypto Dashboard',
         href: '/',
+        smallDescription: 'test test test',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
         imageUrl:
@@ -157,7 +162,7 @@ export default function ProjectsList() {
                     <div className="mt-16 m-4 grid grid-cols-1  space-y-20 lg:mt-20 lg:space-y-20">
                         {posts.map((post) => (
                             <article key={post.id} className="relative isolate  flex flex-col gap-8 lg:flex-row">
-                                <div className="relative aspect-[16/9] border-solid border-8 rounded-2xl border-gray-200 sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+                                <div className="relative aspect-[16/9] border-solid border-8 rounded-2xl border-gray-200 sm:aspect-[2/1] lg:aspect-square lg:w-80 lg:shrink-0">
                                     <img
                                         src={post.imageUrl}
                                         alt=""
