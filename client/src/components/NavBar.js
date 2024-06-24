@@ -41,9 +41,15 @@ export default function NavBar() {
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                        Log in <span aria-hidden="true">&rarr;</span>
-                    </a> */}
+                    {/* <h4 className="text-sm font-semibold leading-6 text-blue-800">
+                        Contact Info <span aria-hidden="true">&rarr;</span>
+                    </h4> */}
+                    <div>
+                        {/* <h2 className="px-5 text-md font-bold">Contact Info</h2> */}
+                        <h5 className="px-5">Phone: +1-864-965-8638</h5>
+                        <h5 className="px-5">Email: johnclaytonmangum@gmail.com</h5>
+
+                    </div>
                 </div>
             </nav>
             <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -81,6 +87,9 @@ export default function NavBar() {
                                 ))}
                             </div>
                             <div className="py-6">
+                                <h2 className="px-5 text-md font-bold">Contact Info</h2>
+                                <h5 className="px-5">Phone: +1-864-965-8638</h5>
+                                <h5 className="px-5">Email: johnclaytonmangum@gmail.com</h5>
                                 {/* <a
                                     href="/"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"

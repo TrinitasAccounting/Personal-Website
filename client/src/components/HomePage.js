@@ -66,6 +66,11 @@ export default function HomePage() {
                             Learn more about me<span aria-hidden="true">→</span>
                         </a>
                     </div>
+                    {/* <div>
+                        <h3>Contact Info:</h3>
+                        <h5>Phone:</h5>
+                        <h5>Email:</h5>
+                    </div> */}
                 </div>
                 <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
                     <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
