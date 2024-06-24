@@ -62,7 +62,6 @@ const jobOpenings = [
         role: 'Algorithm Developer ',
         company: 'FTMO Hege Fund',
         timeline: 'Mar 2022 - Present',
-        href: '/',
         description:
             'I developed trading indicators and algorithms using PineScript or MQL5 programming languages for professional traders. The algorithms trade fully automated on the ForEx market, trading $155k in total of the hedge fund\'s capital. I built out the program logic for all algorithms and worked with a developmental team half of the time. Together we built out fully functional algorithms that successfully generated profit for the hedge fund and users.',
 
@@ -72,7 +71,6 @@ const jobOpenings = [
         role: 'Junior Software Developer Internship',
         company: 'MyPrice.Best',
         timeline: 'May 2024 - Present',
-        href: '/',
         description:
             'Working with a start up company in the healthcare industry, to develop and build their software web application. Developing using a stack of Flask backend, Postgresql, Bcrpyt for password authorization, React.js, Tailwind, and Material UI.  ',
 
@@ -92,7 +90,7 @@ const jobOpenings = [
         role: 'Sales Engineer',
         company: 'Quail Systems',
         timeline: 'Dec 2022 - Jan 2024',
-        href: '/',
+
         description:
             'I worked with many industries (restaurants, hospitals, hotels, cruise lines, etc.) to sell our disinfection technology into their business. Small company with industry disrupting technology, which I sold and worked with government agencies to bring a deeper understanding on the product. ',
 
@@ -102,64 +100,41 @@ const jobOpenings = [
         role: 'Founder & Power BI Developer / Analyst',
         company: 'Trinitas Accounting',
         timeline: 'Feb 2019 - Feb 2022',
-        href: '/',
+
         description:
             'Designed financial software analytics using Power BI and Tableau, that I launched to small business owners. Queried data directly from their accounting software, to present real time financial information to the users (via mobile and desktop). Worked directly with a Quickbooks API and pulled data into a relational database, so Power BI could properly map it. Building our analytic visualizations for the database data overall.Developed and successfully updated & maintained this software for business owners until 2022. Then shifted fully into an outsourced CFO role helping businesses gain funding and/or improve their business’s financial situation.',
 
     },
 ]
 const footerNavigation = {
-    // solutions: [
-    //     { name: 'Marketing', href: '#' },
-    //     { name: 'Analytics', href: '#' },
-    //     { name: 'Commerce', href: '#' },
-    //     { name: 'Insights', href: '#' },
-    // ],
-    // support: [
-    //     { name: 'Pricing', href: '#' },
-    //     { name: 'Documentation', href: '#' },
-    //     { name: 'Guides', href: '#' },
-    //     { name: 'API Status', href: '#' },
-    // ],
-    // company: [
-    //     { name: 'About', href: '#' },
-    //     { name: 'Blog', href: '#' },
-    //     { name: 'Jobs', href: '#' },
-    //     { name: 'Press', href: '#' },
-    //     { name: 'Partners', href: '#' },
-    // ],
-    // legal: [
-    //     { name: 'Claim', href: '#' },
-    //     { name: 'Privacy', href: '#' },
-    //     { name: 'Terms', href: '#' },
-    // ],
+
     social: [
-        {
-            name: 'Blog',
-            href: '/',
-            icon: (props) => (
-                <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-                    <path
-                        fillRule="evenodd"
-                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                        clipRule="evenodd"
-                    />
-                </svg>
-            ),
-        },
-        {
-            name: 'Instagram',
-            href: '/',
-            icon: (props) => (
-                <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-                    <path
-                        fillRule="evenodd"
-                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                        clipRule="evenodd"
-                    />
-                </svg>
-            ),
-        },
+        // {
+        //     name: 'Blog',
+        //     href: '/',
+        //     icon: (props) => (
+        //         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+        //             <path
+        //                 fillRule="evenodd"
+        //                 d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+        //                 clipRule="evenodd"
+        //             />
+        //         </svg>
+        //     ),
+        // },
+        // {
+        //     name: 'Instagram',
+        //     href: '/',
+        //     icon: (props) => (
+        //         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+        //             <path
+        //                 fillRule="evenodd"
+        //                 d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+        //                 clipRule="evenodd"
+        //             />
+        //         </svg>
+        //     ),
+        // },
         // {
         //     name: 'X',
         //     href: '/',
@@ -171,7 +146,7 @@ const footerNavigation = {
         // },
         {
             name: 'GitHub',
-            href: '/',
+            href: 'https://github.com/TrinitasAccounting',
             icon: (props) => (
                 <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                     <path
@@ -348,10 +323,10 @@ export default function AboutPage() {
                                         <dl className="relative flex flex-wrap gap-x-3">
                                             <dt className="sr-only">Role</dt>
                                             <dd className="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
-                                                <a href={opening.href}>
+                                                <h5>
                                                     {opening.role}
                                                     <span className="absolute inset-0" aria-hidden="true" />
-                                                </a>
+                                                </h5>
                                             </dd>
                                             <dt className="sr-only">Company</dt>
                                             <dd className="mt-1 text-base font-base leading-7 text-gray-900">{opening.company}</dd>
@@ -377,11 +352,7 @@ export default function AboutPage() {
                                     </li>
                                 ))}
                             </ul>
-                            {/* <div className="mt-8 flex border-t border-gray-100 pt-8">
-                                <a href="/" className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                                    View all openings <span aria-hidden="true">&rarr;</span>
-                                </a>
-                            </div> */}
+
                         </div>
                     </div>
                 </div>
@@ -440,213 +411,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                {/* Logo cloud */}
-                {/* <div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
-                    <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-                        <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            Our customers love us
-                        </h2>
-                        <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-                            Aliquip reprehenderit incididunt amet quis fugiat ut velit. Sit occaecat labore proident cillum in nisi
-                            adipisicing officia excepteur tempor deserunt.
-                        </p>
-                        <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
-                            <img
-                                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-                                alt="Transistor"
-                                width={158}
-                                height={48}
-                            />
-                            <img
-                                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
-                                alt="Reform"
-                                width={158}
-                                height={48}
-                            />
-                            <img
-                                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
-                                alt="Tuple"
-                                width={158}
-                                height={48}
-                            />
-                            <img
-                                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-                                alt="SavvyCal"
-                                width={158}
-                                height={48}
-                            />
-                            <img
-                                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-                                alt="Statamic"
-                                width={158}
-                                height={48}
-                            />
-                        </div>
-                        <div className="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl" aria-hidden="true">
-                            <div
-                                className="aspect-[1404/767] w-[87.75rem] bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
-                                style={{
-                                    clipPath:
-                                        'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
-                                }}
-                            />
-                        </div>
-                    </div>
-                </div> */}
 
-                {/* Content section */}
-                {/* <div className="mt-32 overflow-hidden sm:mt-40">
-                    <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-                        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-                            <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
-                                <p className="mt-6 text-xl leading-8 text-gray-600">
-                                    Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem
-                                    minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.
-                                </p>
-                                <p className="mt-6 text-base leading-7 text-gray-600">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                                    amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.
-                                </p>
-                            </div>
-                            <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                                <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
-                                        alt=""
-                                        className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                                    />
-                                </div>
-                                <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                                    <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                                            alt=""
-                                            className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                                        />
-                                    </div>
-                                    <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
-                                            alt=""
-                                            className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                                        />
-                                    </div>
-                                    <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                                        <img
-                                            src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                                            alt=""
-                                            className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
-                {/* Stats */}
-                {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-                    <div className="mx-auto max-w-2xl lg:mx-0">
-                        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            We approach the workplace as something that adds to our lives and adds value to world.
-                        </h2>
-                        <p className="mt-6 text-base leading-7 text-gray-600">
-                            Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu.
-                            Cras purus nibh cursus sit eu in id. Integer vel nibh.
-                        </p>
-                    </div>
-                    <div className="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
-                        <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">250k</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-gray-900">Users on the platform</p>
-                                <p className="mt-2 text-base leading-7 text-gray-600">
-                                    Vel labore deleniti veniam consequuntur sunt nobis.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-white">$8.9 billion</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-white">
-                                    We’re proud that our customers have made over $8 billion in total revenue.
-                                </p>
-                                <p className="mt-2 text-base leading-7 text-gray-400">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-white">401,093</p>
-                            <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
-                                <p className="mt-2 text-base leading-7 text-indigo-200">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
-                {/* Content section */}
-                {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-                    <div className="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
-                        <div className="w-full lg:max-w-lg lg:flex-auto">
-                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                                We’re always looking for awesome people to join us
-                            </h2>
-                            <p className="mt-6 text-xl leading-8 text-gray-600">
-                                Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu.
-                                Cras purus nibh cursus sit eu in id.
-                            </p>
-                            <img
-                                src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
-                                alt=""
-                                className="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
-                            />
-                        </div>
-                        <div className="w-full lg:max-w-xl lg:flex-auto">
-                            <h3 className="sr-only">Job openings</h3>
-                            <ul className="-my-8 divide-y divide-gray-100">
-                                {jobOpenings.map((opening) => (
-                                    <li key={opening.id} className="py-8">
-                                        <dl className="relative flex flex-wrap gap-x-3">
-                                            <dt className="sr-only">Role</dt>
-                                            <dd className="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
-                                                <a href={opening.href}>
-                                                    {opening.role}
-                                                    <span className="absolute inset-0" aria-hidden="true" />
-                                                </a>
-                                            </dd>
-                                            <dt className="sr-only">Description</dt>
-                                            <dd className="mt-2 w-full flex-none text-base leading-7 text-gray-600">{opening.description}</dd>
-                                            <dt className="sr-only">Salary</dt>
-                                            <dd className="mt-4 text-base font-semibold leading-7 text-gray-900">{opening.salary}</dd>
-                                            <dt className="sr-only">Location</dt>
-                                            <dd className="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
-                                                <svg viewBox="0 0 2 2" className="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
-                                                    <circle cx={1} cy={1} r={1} />
-                                                </svg>
-                                                {opening.location}
-                                            </dd>
-                                        </dl>
-                                    </li>
-                                ))}
-                            </ul>
-                            <div className="mt-8 flex border-t border-gray-100 pt-8">
-                                <a href="/" className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-                                    View all openings <span aria-hidden="true">&rarr;</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </main>
 
             {/* Footer */}
@@ -655,90 +420,7 @@ export default function AboutPage() {
                     Footer
                 </h2>
                 <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
-                    {/* <div className="border-t border-gray-900/10 pt-20 xl:grid xl:grid-cols-3 xl:gap-8">
-                        <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-                            <div className="md:grid md:grid-cols-2 md:gap-8">
-                                <div>
-                                    <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
-                                    <ul role="list" className="mt-6 space-y-4">
-                                        {footerNavigation.solutions.map((item) => (
-                                            <li key={item.name}>
-                                                <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                                                    {item.name}
-                                                </a>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div className="mt-10 md:mt-0">
-                                    <h3 className="text-sm font-semibold leading-6 text-gray-900">Support</h3>
-                                    <ul role="list" className="mt-6 space-y-4">
-                                        {footerNavigation.support.map((item) => (
-                                            <li key={item.name}>
-                                                <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                                                    {item.name}
-                                                </a>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="md:grid md:grid-cols-2 md:gap-8">
-                                <div>
-                                    <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
-                                    <ul role="list" className="mt-6 space-y-4">
-                                        {footerNavigation.company.map((item) => (
-                                            <li key={item.name}>
-                                                <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                                                    {item.name}
-                                                </a>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div className="mt-10 md:mt-0">
-                                    <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
-                                    <ul role="list" className="mt-6 space-y-4">
-                                        {footerNavigation.legal.map((item) => (
-                                            <li key={item.name}>
-                                                <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                                                    {item.name}
-                                                </a>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="mt-10 xl:mt-0">
-                            <h3 className="text-sm font-semibold leading-6 text-gray-900">Subscribe to our newsletter</h3>
-                            <p className="mt-2 text-sm leading-6 text-gray-600">
-                                The latest news, articles, and resources, sent to your inbox weekly.
-                            </p>
-                            <form className="mt-6 sm:flex sm:max-w-md">
-                                <label htmlFor="email-address" className="sr-only">
-                                    Email address
-                                </label>
-                                <input
-                                    type="email"
-                                    name="email-address"
-                                    id="email-address"
-                                    autoComplete="email"
-                                    required
-                                    className="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
-                                    placeholder="Enter your email"
-                                />
-                                <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-                                    <button
-                                        type="submit"
-                                        className="flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                    >
-                                        Subscribe
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div> */}
+
                     <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
                         <div className="flex space-x-6 md:order-2">
                             {footerNavigation.social.map((item) => (

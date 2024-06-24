@@ -10,7 +10,7 @@ const posts = [
     {
         id: 1,
         title: 'Financial Expense Tracker',
-        href: '#',
+
         smallDescription: 'App allowing users to visualize and check their financial health on one simple dashboard.',
         description:
             'Utilizing Flask backend with SQLAlchemy ORM, and a Postgresql database. Users can import or enter bank transactions into their transactions list. The React frontend uses algorithms to calculate total expenses, COGS, and revenue values, plotting it on the dashboard using Tailwindcss and Material UI charting. This app allows the user to import transactions every month so they can immediately see their financial picture for the current month and their estimated tax liability',
@@ -19,11 +19,11 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         demo: 'https://www.loom.com/share/1a45404952714e6493277eda672cf8dc?sid=391b318c-1dc9-495c-99f2-3234bf4ca87e',
-        buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind, Material-UI', href: '/' },
+        buildType: { title: 'Full Stack', stack: 'React, Flask, Postgresql, Tailwind, Material-UI' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
-            href: '/',
+
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             github: 'https://github.com/TrinitasAccounting/Financial-Expense-Tracker-Deployed',
@@ -33,19 +33,19 @@ const posts = [
     {
         id: 2,
         title: 'Construct-a-save',
-        href: '/',
+
         smallDescription: 'This app allows a contractor to receive customized pricing from multiple different suppliers. Giving the ability to price shop his supplies from each supplier in turn saving money. ',
         description:
             'Utilizes Flask, Bcrypt Encryption Library, and Postgresql to allow users to sign up and login to the platform. Storing their user data in a cookie session. Using a React.js and Tailwindcss user interface, a contractor can add a distributor to their partnerships, and only those distributors are allowed to see that contractors proprietary list of productsThis project is still ongoing, but will result in a contractor being able to save money on their project expenses by giving them the ability to easily see who offers the lowest priced product at the time of purchase. ',
         imageUrl:
             ConstuctASaveDistributorPageScreenshot,
         datetime: '2020-03-16',
-        buildType: { title: 'Full Stack', stack: 'React, Flask, SQLite, Tailwind', href: '/' },
+        buildType: { title: 'Full Stack', stack: 'React, Flask, SQLite, Tailwind' },
         demo: 'https://www.loom.com/share/37fcfda399304113b1d83ab5bd5e86b6?sid=a28ff3e2-ab29-49c6-a1a9-3d1f5e0c1c8b',
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
-            href: '/',
+
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             github: 'https://github.com/TrinitasAccounting/Construct-a-save',
@@ -55,20 +55,20 @@ const posts = [
     {
         id: 3,
         title: 'NBA Stats Database',
-        href: '/',
-        smallDescription: 'This app contains many NBA players and teams and provides a users the ability to add more. Allowing them to track each player\’s overall stats, teams, and coaches.',
+
+        smallDescription: 'This app contains many NBA players and teams and provides a users the ability to add more. Allowing them to track each player\'s overall stats, teams, and coaches.',
         description:
             'Uses a PostgreSQL database to store all current and future statics for each player and team. Uses Flask as the backend to host JSON data to a server so our client-side could fetch to and from it. React front end that is built with user simplicity in mind, allows users to easily navigate and add data',
         imageUrl:
             NBAStatsTracker,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        buildType: { title: 'Full Stack', stack: 'React, Flask, SQLite, CSS', href: '/' },
+        buildType: { title: 'Full Stack', stack: 'React, Flask, SQLite, CSS' },
         demo: 'https://www.loom.com/share/2cda6a60f00f4b3fb0175c39ca7117bd?sid=d33463e7-ad5f-4a88-8958-b35f1e453de1',
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
-            href: '/',
+
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             github: 'https://github.com/TrinitasAccounting/python-p4-project-template',
@@ -78,7 +78,7 @@ const posts = [
     {
         id: 4,
         title: 'Trivia Game',
-        href: '/',
+
         smallDescription: 'Simple command line interface game. Users answer trivia questions attempting to get their highscore on the leaderboard.',
         description:
             'Built using Python and SQLite. A database contains many questions for each difficulty level. The game is run via any command line interface and will post new high scores to the database as players break new records. ',
@@ -87,11 +87,11 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         demo: 'https://www.loom.com/share/fb8d1db6b7de42e3958a93acb259810f?sid=99bc1700-7f31-4c23-9237-5ac9e83e2921',
-        buildType: { title: 'CLI', stack: 'Python, CLI', href: '/' },
+        buildType: { title: 'CLI', stack: 'Python, CLI' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
-            href: '/',
+
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             github: 'https://github.com/TrinitasAccounting/python-p3-v2-final-project-template',
@@ -101,20 +101,20 @@ const posts = [
     {
         id: 5,
         title: 'Frankenstein Phonebook',
-        href: '/',
+
         smallDescription: 'Simple one page React application, showing many Frankenstein characters with names and emails',
         description:
-            'Built using a React frontend. This pulls from two public API\'s to populate contact cards. Each card shows a face, name, and email. As a user types into a search box, the cards will be filtered to only show Frankenstein\s with those characters in their names. ',
+            'Built using a React frontend. This pulls from two public API\'s to populate contact cards. Each card shows a face, name, and email. As a user types into a search box, the cards will be filtered to only show Frankenstein\'s with those characters in their names. ',
         imageUrl:
             FrankensteinPhoneBookScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         demo: 'https://www.loom.com/share/53875f481fff417abf237b651f072ed6?sid=4be1c701-fd29-4ec5-999b-43dfca1e4e76',
-        buildType: { title: 'Frontend', stack: 'React, CSS', href: '/' },
+        buildType: { title: 'Frontend', stack: 'React, CSS' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
-            href: '/',
+
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             github: 'https://github.com/TrinitasAccounting/Frankenstein-Phonebook',
@@ -124,7 +124,7 @@ const posts = [
     {
         id: 6,
         title: 'Crypto Dashboard',
-        href: '/',
+
         smallDescription: 'This app shows a list of over 100 crypto currencies, allowing the user to buy and sell crypto currencies with fake money they deposited.',
         description:
             'Built with vanilla javascript, the crypto data is hosted in a local json API. Users can deposit and withdraw money from their fake wallets. A user can scroll through hundreds of crypto currencies and evaluate each by their trading price, trading volume, etc. They can store currencies in their watchlist and even buy fake shares of a currency. When selected the user can see how many shares they own of that currency, and if they sell how much money will be added back to their cash wallet.',
@@ -133,11 +133,11 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         demo: 'https://www.loom.com/share/c649d26093e64c5f96898001b83a0768?sid=1e5ab4be-e628-40a0-b88a-1c158300f736',
-        buildType: { title: 'Vanilla Javascript', stack: 'Javascript', href: '/' },
+        buildType: { title: 'Vanilla Javascript', stack: 'Javascript' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
-            href: '/',
+
             imageUrl:
                 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
             github: 'https://github.com/TrinitasAccounting/Crypto-Dashboard',
@@ -177,7 +177,7 @@ export default function ProjectsList() {
                                         </time> */}
                                         {post.buildType.title === 'Full Stack' ?
                                             <h5
-                                                // href={post.demo}
+
                                                 className="relative z-10 rounded-full bg-green-100 px-3 py-1.5 font-medium text-green-800"
                                             >
                                                 {post.buildType.title}
@@ -185,7 +185,7 @@ export default function ProjectsList() {
 
                                             :
                                             <h5
-                                                // href={post.demo}
+
                                                 className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600"
                                             >
                                                 {post.buildType.title}
@@ -195,11 +195,11 @@ export default function ProjectsList() {
                                         <h5>{post.buildType.stack}</h5>
                                     </div>
                                     <div className="group relative max-w-xl">
-                                        <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                            <a href={post.href}>
+                                        <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 ">
+                                            <h5>
                                                 <span className="absolute inset-0" />
                                                 {post.title}
-                                            </a>
+                                            </h5>
                                         </h3>
                                         <p className="mt-3 text-md leading-6 text-gray-600">{post.smallDescription}</p>
                                         <p className="mt-3 text-sm font-semibold leading-6 text-black">Details:</p>

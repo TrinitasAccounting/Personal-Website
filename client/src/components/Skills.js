@@ -1,6 +1,5 @@
 
 
-import { EllipsisVerticalIcon } from '@heroicons/react/20/solid'
 
 const projects = [
     { name: 'Javascript', initials: 'JS', bgColor: 'bg-gray-300' },
@@ -31,7 +30,7 @@ export default function Skills() {
     return (
         <div>
             {/* <h2 className="text-sm font-medium text-gray-500">Pinned Projects</h2> */}
-            <ul role="list" className="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-12 lg:grid-cols-5">
+            <ul className="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-12 lg:grid-cols-5">
                 {projects.map((project) => (
                     <li key={project.name} className="col-span-1 flex rounded-md shadow-sm">
                         <div
