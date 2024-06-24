@@ -56,9 +56,9 @@ const posts = [
         id: 3,
         title: 'NBA Stats Database',
         href: '/',
-        smallDescription: 'test test test',
+        smallDescription: 'This app contains many NBA players and teams and provides a users the ability to add more. Allowing them to track each player\’s overall stats, teams, and coaches.',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+            'Uses a PostgreSQL database to store all current and future statics for each player and team. Uses Flask as the backend to host JSON data to a server so our client-side could fetch to and from it. React front end that is built with user simplicity in mind, allows users to easily navigate and add data',
         imageUrl:
             NBAStatsTracker,
         date: 'Mar 16, 2020',
@@ -79,9 +79,9 @@ const posts = [
         id: 4,
         title: 'Trivia Game',
         href: '/',
-        smallDescription: 'test test test',
+        smallDescription: 'Simple command line interface game. Users answer trivia questions attempting to get their highscore on the leaderboard.',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+            'Built using Python and SQLite. A database contains many questions for each difficulty level. The game is run via any command line interface and will post new high scores to the database as players break new records. ',
         imageUrl:
             TriviaGameScreenshot,
         date: 'Mar 16, 2020',
@@ -100,16 +100,16 @@ const posts = [
     },
     {
         id: 5,
-        title: 'Frenkenstein Phonebook',
+        title: 'Frankenstein Phonebook',
         href: '/',
-        smallDescription: 'test test test',
+        smallDescription: 'Simple one page React application, showing many Frankenstein characters with names and emails',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+            'Built using a React frontend. This pulls from two public API\'s to populate contact cards. Each card shows a face, name, and email. As a user types into a search box, the cards will be filtered to only show Frankenstein\s with those characters in their names. ',
         imageUrl:
             FrankensteinPhoneBookScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        demo: 'https://___',
+        demo: 'https://www.loom.com/share/53875f481fff417abf237b651f072ed6?sid=4be1c701-fd29-4ec5-999b-43dfca1e4e76',
         buildType: { title: 'Frontend', stack: 'React, CSS', href: '/' },
         author: {
             name: 'Clay Mangum',
@@ -125,9 +125,9 @@ const posts = [
         id: 6,
         title: 'Crypto Dashboard',
         href: '/',
-        smallDescription: 'test test test',
+        smallDescription: 'This app shows a list of over 100 crypto currencies, allowing the user to buy and sell crypto currencies with fake money they deposited.',
         description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+            'Built with vanilla javascript, the crypto data is hosted in a local json API. Users can deposit and withdraw money from their fake wallets. A user can scroll through hundreds of crypto currencies and evaluate each by their trading price, trading volume, etc. They can store currencies in their watchlist and even buy fake shares of a currency. When selected the user can see how many shares they own of that currency, and if they sell how much money will be added back to their cash wallet.',
         imageUrl:
             CryptoDashboardScreenshot,
         date: 'Mar 16, 2020',
@@ -202,7 +202,8 @@ export default function ProjectsList() {
                                             </a>
                                         </h3>
                                         <p className="mt-3 text-md leading-6 text-gray-600">{post.smallDescription}</p>
-                                        <p className="mt-3 text-sm leading-6 text-gray-600">{post.description}</p>
+                                        <p className="mt-3 text-sm font-semibold leading-6 text-black">Details:</p>
+                                        <p className=" text-sm leading-2 text-gray-600">{post.description}</p>
                                     </div>
                                     <div className="mt-2 flex border-t border-gray-900/5 pt-2">
                                         <div className="relative flex items-center gap-x-4 grid-cols-3">

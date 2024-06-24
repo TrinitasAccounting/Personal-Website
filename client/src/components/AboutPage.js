@@ -227,13 +227,19 @@ export default function AboutPage() {
                         aria-hidden="true"
                     />
                     <div className="mx-auto max-w-7xl px-6 py-32 sm:py-20 lg:px-8">
-                        <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-                            <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
+                        <div className=" mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+                            <h1 className="  text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
                                 More About Myself
                             </h1>
-                            <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-2 xl:row-start-2">
+                            <div className="mt-6 lg:mt-0 xl:col-end-2 xl:row-start-2">
+                                {/* <p className="text-lg leading-8 text-gray-600">
+                                    I grew up in a small town in Williamston, South Carolina, raised on a 49 acre farm. Being taught the value of hard work at a young age, I pursue everything with a complete determination to be highly successful. Blessed with the oppurtunity to attend Clemson University and play Mens Volleyball while in undergrad. I graduated and set out to pursue my adventure of playing professional beach volleyball. Moving everything I owned to a random apartment in California, I was going to work for my dream. After playing a year on a professional east coast volleyball tour and then playing a year competing to make it in the AVP. I gave up my dream of professional beach volleyball and went back to school. Studing business in graduate school and starting my first software company....if you can call it that. I developed a real time financial dashboard for contractors and small business owners. My dashboard was built using Power BI and quired the users data directly from Quickbooks. Was successful at building, maintaining, and selling this software solution for 3 years. I realized my passion was not in sells or accounting, I wanted to continue programming. So the next stop on my journey was algorithmic trading on the financial markets. What does that even mean??? Well I used my mathematics background and began programming in Pinescript/MQL5 languages. Building trading algorithms that woudl read the market and enter/exit real time trades based on a certain set of criteria. I was fairly successful at this, as I still have some of these running in the background today. Begin working for a hedge fund in which I used my developed algorithms to trade about $165k+ of their client's funds. From their I dsicovered my passion for software and wanted to pursue this dream full time. I pursued and completed a software bootcamp, in which I learned an indepth knowledge of fullstack development. Focused on python as my backend (Flask) and javascript (React) for my frontend. Beyond building small and medium projects shown on my projects page, I am building a real world application for the healthcare industry.
+                                </p> */}
+                                {/* <p className="text-lg leading-8 text-gray-600">
+                                    Experienced in Python with Flask and JavaScript based programming with a background in finance and analytics. Possess a strong ability to self-learn, work with a team, and solve real world programming problems. Also has an extensive background in (small-medium) technology and emerging software companies. I began self learning 6 years ago and attended Flatiron bootcamp to expand on my knowledge and love of developing software programs to solve everyday problems. My skills/experience can benefit any company looking for someone who can see how a software offering generates revenue for a company and understands how to drive positive impact to the product and company overall.
+                                </p> */}
                                 <p className="text-lg leading-8 text-gray-600">
-                                    Here is a brief description of who I am and my journey to software engineering.
+                                    I was raised on a small farm in Williamston, South Carolina. I played indoor Mens Volleyball at Clemson University, and pursued my dream playing professional beach volleyball for two years after my undergrad. I am experienced in Python with Flask and JavaScript based programming with a background in finance and analytics. Possess a strong ability to self-learn, work with a team, and solve real world programming problems. Also I have an extensive background in (small-medium) technology and emerging software companies. I began self learning 6 years ago and attended Flatiron bootcamp to expand on my knowledge and love of developing software programs to solve everyday problems. My skills/experience can benefit any company looking for someone who can see how a software offering generates revenue for a company and understands how to drive positive impact to the product and company overall.
                                 </p>
                             </div>
                             {/* <img
@@ -247,7 +253,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Sklls Section */}
-                <div className="mx-auto mt-12 max-w-7xl px-2 sm:mt-24 lg:px-2">
+                <div className="mx-auto mt-12 max-w-7xl px-2 sm:mt-12 lg:px-2">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             Skills
