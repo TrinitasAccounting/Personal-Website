@@ -36,7 +36,7 @@ const posts = [
 
         smallDescription: 'This app allows a contractor to receive customized pricing from multiple different suppliers. Giving the ability to price shop his supplies from each supplier in turn saving money. ',
         description:
-            'Utilizes Flask, Bcrypt Encryption Library, and Postgresql to allow users to sign up and login to the platform. Storing their user data in a cookie session. Using a React.js and Tailwindcss user interface, a contractor can add a distributor to their partnerships, and only those distributors are allowed to see that contractors proprietary list of productsThis project is still ongoing, but will result in a contractor being able to save money on their project expenses by giving them the ability to easily see who offers the lowest priced product at the time of purchase. ',
+            'Utilizes Flask, Bcrypt Encryption Library, and Postgresql to allow users to sign up and login to the platform. Storing their user data in a cookie session. Using a React.js and Tailwindcss user interface, a contractor can add a distributor to their partnerships, and only those distributors are allowed to see that contractors proprietary list of products. This project is still ongoing, but will result in a contractor being able to save money on their project expenses by giving them the ability to easily see who offers the lowest priced product at the time of purchase. ',
         imageUrl:
             ConstuctASaveDistributorPageScreenshot,
         datetime: '2020-03-16',
