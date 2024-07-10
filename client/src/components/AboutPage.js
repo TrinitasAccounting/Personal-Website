@@ -50,7 +50,7 @@ const timeline = [
     {
         name: 'Full Stack Coding Bootcamp',
         description:
-            'Flatiron program was heavily focused on learning javascript and python. And how to build real world full stack applications using Flask, SQL, and React.js',
+            'Flatiron program was heavily focused on learning Javascript and Python. And how to build real world full stack applications using Flask, SQL, and React.js',
         date: 'May 2024',
         dateTime: '2024-05',
         school: 'Flatiron School'
@@ -71,7 +71,7 @@ const jobOpenings = [
         company: 'FTMO Hege Fund',
         timeline: 'Mar 2022 - Present',
         description:
-            'I developed trading indicators and algorithms using PineScript or MQL5 programming languages for professional traders. The algorithms trade fully automated on the ForEx market, trading $165k in total of the hedge fund\'s capital. I built out the program logic for all algorithms and worked with a developmental team half of the time. Together we built out fully functional algorithms that successfully generated profit for the hedge fund and users.',
+            'I developed trading indicators and algorithms using Python, PineScript, and MQL5 programming languages for professional traders. The algorithms trade fully automated on the ForEx market, trading $165k in total of the hedge fund\'s capital. I built out the program logic for all algorithms and worked with a developmental team half of the time. Together we built out fully functional algorithms that successfully generated profit for the hedge fund and users.',
 
     },
     // {
@@ -101,7 +101,7 @@ const jobOpenings = [
         timeline: 'Feb 2019 - Feb 2022',
 
         description:
-            'Designed financial software analytics using Power BI and Tableau, that I launched to small business owners. Queried data directly from their accounting software, to present real time financial information to the users (via mobile and desktop). Worked directly with a Quickbooks API and pulled data into a relational database, so Power BI could properly map it. Building our analytic visualizations for the database data overall. Developed and successfully updated & maintained this software for business owners until 2022.',
+            'Designed financial software analytics using Power BI, Javascript, and Tableau, that I launched to small business owners. Queried data directly from their accounting software, to present real time financial information to the users (via mobile and desktop). Worked directly with a Quickbooks API and pulled data into a relational database, so Power BI could properly map it. Building our analytic visualizations for the database data overall. Developed and successfully updated & maintained this software for business owners until 2022.',
     },
 ]
 const footerNavigation = {
