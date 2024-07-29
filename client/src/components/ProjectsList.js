@@ -102,15 +102,15 @@ const posts = [
         id: 5,
         title: 'Frankenstein Phonebook',
 
-        smallDescription: 'Simple one page React application, showing many Frankenstein characters with names and emails',
+        smallDescription: 'React application built in Typescript, showing many Frankenstein characters with names and emails',
         description:
-            'Built using a React frontend. This pulls from two public API\'s to populate contact cards. Each card shows a face, name, and email. As a user types into a search box, the cards will be filtered to only show Frankenstein\'s with those characters in their names. ',
+            'Built using a React Typescript frontend. This pulls from two public API\'s to populate contact cards. Each card shows a face, name, and email. As a user types into a search box, the cards will be filtered to only show Frankenstein\'s with those characters in their names. ',
         imageUrl:
             FrankensteinPhoneBookScreenshot,
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         demo: 'https://www.loom.com/share/53875f481fff417abf237b651f072ed6?sid=4be1c701-fd29-4ec5-999b-43dfca1e4e76',
-        buildType: { title: 'Frontend', stack: 'React, CSS' },
+        buildType: { title: 'Frontend', stack: 'Typescript, React, CSS' },
         author: {
             name: 'Clay Mangum',
             role: 'Co-Founder / CTO',
