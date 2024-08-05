@@ -63,12 +63,12 @@ const jobOpenings = [
         company: 'MyPrice.Best',
         timeline: 'May 2024 - Present',
         description:
-            'Working with a start up company in the healthcare industry, to develop and build their software web application. Building out a full stack application with React.js, Flask, Postgresql database, and hosted on a PaaS. Using React.js and Flask to handle user authentication and authorization. Using React front-end to control what pages and actions are visible to a user based on the type of user logged in. Healthcare company, so client information is extremely confidential. I use Bcrypt library as a encryption to protect all sensitive information ',
+            'Working with a start-up company in the healthcare industry, to develop and build their software web application. Building out a full stack application with React.js, Flask, Postgresql database, and hosted on a PaaS. Using React.js and Flask to handle user authentication and authorization. Using React front-end to control what pages and actions are visible to a user based on the type of user logged in. Healthcare company, so client information is extremely confidential. I use Bcrypt library as a encryption to protect all sensitive information ',
     },
     {
         id: 1,
         role: 'Algorithm Developer / Trader',
-        company: 'FTMO Hege Fund',
+        company: 'FTMO Hedge Fund',
         timeline: 'Mar 2022 - Present',
         description:
             'I developed trading indicators and algorithms using Python, PineScript, and MQL5 programming languages for professional traders. The algorithms trade fully automated on the ForEx market, trading $165k in total of the hedge fund\'s capital. I built out the program logic for all algorithms and worked with a developmental team half of the time. Together we built out fully functional algorithms that successfully generated profit for the hedge fund and users.',
