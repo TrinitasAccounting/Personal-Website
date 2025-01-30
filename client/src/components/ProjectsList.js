@@ -5,10 +5,35 @@ import ConstuctASaveDistributorPageScreenshot from '../images/ConstuctASaveDistr
 import TriviaGameScreenshot from '../images/TriviaGameScreenshot.png';
 import CryptoDashboardScreenshot from '../images/CryptoDashboardScreenshot.png';
 import FrankensteinPhoneBookScreenshot from '../images/FrankensteinPhoneBookScreenshot.png';
+import HappyAppyScreenshot3 from '../images/HappyAppyScreenshot3.png';
 
+// Projects in an array to be mapped through
 const posts = [
     {
         id: 1,
+        title: 'Happy Appy',
+
+        smallDescription: 'Saas company that I launched with a growing user base. Daily it sends dad jokes to users via sms, making them smile and together we donate over half of the revenue to charities. ',
+        description:
+            'Built on a C#/.Net backend web API, querying an Azure SQL database. Allows users to view and add jokes to the database. I have full CRUD implemented, but only accessible by the primary administrator. Utilizes a React front end built with tailwind and CSS styling, with full CRUD fetching to our ASP.Net backend. Implementing Twilio into our backend and frontend, to send automated daily sms text to our user base. Deployed using CI/CD to an Azure App Service, with responsive design for mobile screens. Currently developing a React.Native version, that I hope to roll out in the next few months',
+        imageUrl:
+            HappyAppyScreenshot3,
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        demo: '',
+        buildType: { title: 'Full Stack', stack: 'React, C#/.Net, Azure SQL, Twilio, Tailwind, Material-UI' },
+        author: {
+            name: 'Clay Mangum',
+            role: 'Co-Founder / CTO',
+
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            github: 'https://github.com/TrinitasAccounting/Daily-Jokes-App',
+            deployed: 'https://app-dailyjokesapp-frontend-canada-dev-001-ajgcaycmh6f2d8b5.canadacentral-01.azurewebsites.net/'
+        },
+    },
+    {
+        id: 2,
         title: 'Financial Expense Tracker',
 
         smallDescription: 'App allowing users to visualize and check their financial health on one simple dashboard.',
@@ -31,7 +56,7 @@ const posts = [
         },
     },
     {
-        id: 2,
+        id: 3,
         title: 'Construct-a-save',
 
         smallDescription: 'This app allows a contractor to receive customized pricing from multiple different suppliers. Giving the ability to price shop his supplies from each supplier in turn saving money. ',
@@ -53,7 +78,7 @@ const posts = [
         },
     },
     {
-        id: 3,
+        id: 4,
         title: 'NBA Stats Database',
 
         smallDescription: 'This app contains many NBA players and teams and provides a users the ability to add more. Allowing them to track each player\'s overall stats, teams, and coaches.',
@@ -76,7 +101,7 @@ const posts = [
         },
     },
     {
-        id: 4,
+        id: 5,
         title: 'Trivia Game',
 
         smallDescription: 'Simple command line interface game. Users answer trivia questions attempting to get their highscore on the leaderboard.',
@@ -99,7 +124,7 @@ const posts = [
         },
     },
     {
-        id: 5,
+        id: 6,
         title: 'Frankenstein Phonebook',
 
         smallDescription: 'React application built in Typescript, showing many Frankenstein characters with names and emails',
@@ -122,7 +147,7 @@ const posts = [
         },
     },
     {
-        id: 6,
+        id: 7,
         title: 'Crypto Dashboard',
 
         smallDescription: 'This app shows a list of over 100 crypto currencies, allowing the user to buy and sell crypto currencies with fake money they deposited.',
@@ -162,7 +187,7 @@ export default function ProjectsList() {
                     <div className="mt-16 m-4 grid grid-cols-1  space-y-20 lg:mt-20 lg:space-y-20">
                         {posts.map((post) => (
                             <article key={post.id} className="relative isolate  flex flex-col gap-8 lg:flex-row">
-                                <div className="relative aspect-[16/9] border-solid border-8 rounded-2xl border-gray-200 sm:aspect-[2/1] lg:aspect-square lg:w-80 lg:shrink-0">
+                                <div className="relative aspect-[16/9] border-solid border-8 rounded-2xl border-gray-200 sm:aspect-[2/1] lg:aspect-[square] lg:w-3/6 lg:shrink-0">
                                     <img
                                         src={post.imageUrl}
                                         alt=""
@@ -228,10 +253,9 @@ export default function ProjectsList() {
                                             </div>
 
                                             <div>
-                                                {post.title === 'Financial Expense Tracker' ?
+                                                {((post.title === 'Financial Expense Tracker') || (post.title === 'Happy Appy')) ?
                                                     <p className="font-semibold text-blue-600">
                                                         <a href={post.author.deployed}>
-
                                                             Deployment
                                                         </a>
                                                     </p>

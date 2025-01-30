@@ -3,31 +3,6 @@
 import Skills from "./Skills";
 
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-// import { useState } from 'react'
-// import { Dialog, DialogPanel } from '@headlessui/react'
-// import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
-// const navigation = [
-//     { name: 'Product', href: '#' },
-//     { name: 'Features', href: '#' },
-//     { name: 'Resources', href: '#' },
-//     { name: 'Company', href: '#' },
-// ]
-
 
 
 const timeline = [
@@ -56,14 +31,15 @@ const timeline = [
         school: 'Flatiron School'
     }
 ]
-const jobOpenings = [
+
+const jobExperience = [
     {
         id: 3,
-        role: 'Full Stack Software Engineer - Freelance Role',
+        role: 'Full Stack Software Engineer II',
         company: 'MyPrice.Best',
         timeline: 'May 2024 - Present',
         description:
-            'Working with a start-up company in the healthcare industry, to develop and build their software web application. Building out a full stack application with React.js, Flask, Postgresql database, and hosted on a PaaS. Using React.js and Flask to handle user authentication and authorization. Using React front-end to control what pages and actions are visible to a user based on the type of user logged in. Healthcare company, so client information is extremely confidential. I use Bcrypt library as a encryption to protect all sensitive information ',
+            'Working with a start-up company in the healthcare industry, to develop and build their software web application. Building out a full stack application with React.js, C#/.Net, Azure SQL and Postgresql databases, and hosted on a PaaS. Using React and .Net to handle user authentication and authorization. Using React front-end to control what pages and actions are visible to a user based on the type of user logged in. Healthcare company, so client information is extremely confidential. I use Bcrypt.net library as a encryption to protect all sensitive information ',
     },
     {
         id: 1,
@@ -104,6 +80,7 @@ const jobOpenings = [
             'Designed financial software analytics using Power BI, Javascript, and Tableau, that I launched to small business owners. Queried data directly from their accounting software, to present real time financial information to the users (via mobile and desktop). Worked directly with a Quickbooks API and pulled data into a relational database, so Power BI could properly map it. Building our analytic visualizations for the database data overall. Developed and successfully updated & maintained this software for business owners until 2022.',
     },
 ]
+
 const footerNavigation = {
 
     social: [
@@ -124,11 +101,6 @@ const footerNavigation = {
 
     ],
 }
-
-
-
-
-
 
 
 
@@ -166,7 +138,20 @@ export default function AboutPage() {
                                     Experienced in Python with Flask and JavaScript based programming with a background in finance and analytics. Possess a strong ability to self-learn, work with a team, and solve real world programming problems. Also has an extensive background in (small-medium) technology and emerging software companies. I began self learning 6 years ago and attended Flatiron bootcamp to expand on my knowledge and love of developing software programs to solve everyday problems. My skills/experience can benefit any company looking for someone who can see how a software offering generates revenue for a company and understands how to drive positive impact to the product and company overall.
                                 </p> */}
                                 <p className="text-lg leading-8 text-gray-600">
-                                    I was raised on a small farm in Williamston, South Carolina. I played indoor Men’s Volleyball at Clemson University, and pursued my dream playing professional beach volleyball for two years after my undergrad. I am a full stack software engineer experienced in React.js, Flask, SQL, etc. Having 3 years of experience in fintech as a full stack engineer and experience starting in March 2024 working as a full stack engineer in the healthcare industry. Quick learner, with the majority of my experience building full stack software using a React frontend, Flask backend, Postgresql database, and hosted on a PaaS. I also have a deep background in finance and analytics, with experience in multiple Saas businesses. I pride myself on my strong ability to self-learn, work with a team, and solve real world programming problems. Also, I have an extensive background in (small-medium) technology and emerging software companies. I attended Flatiron bootcamp to gain structure and expand on my knowledge and love of developing software programs to solve everyday problems. My skills/experience can benefit any company looking for someone who can see how a software offering generates revenue for a company and understands how to drive positive impact to the product and company overall.
+                                    I was raised on a small farm in Williamston, South Carolina. I played indoor Men’s Volleyball
+                                    at Clemson University, and pursued my dream playing professional beach volleyball for two years after
+                                    my undergrad. I am a full stack software engineer experienced in React (Javascript/Typescript), C#/.Net, Python SQL, etc. Having 3 years
+                                    of experience in fintech as a full stack engineer and experience starting in March 2024 working as a full stack
+                                    engineer in the healthcare industry. Quick learner and problem solver, with the majority of my experience building full stack
+                                    software using a React frontend, C#/.Net backend, SQL database, and hosted on a PaaS. I also have a deep
+                                    background in finance and analytics, with experience in multiple Saas businesses. I pride myself on my strong
+                                    ability to self-learn, work with a team, and solve real world programming/company problems. Also, I have an extensive
+                                    background in (small-medium) technology and emerging software companies. I attended Flatiron bootcamp to gain
+                                    structure and expand on my knowledge and love of developing software programs to solve everyday problems.
+                                    My skills/experience can benefit any company looking for someone who can see how a software offering generates
+                                    revenue for a company and understands how to drive positive impact to the product and company overall.
+                                    I am very experienced and comfortable taking a concept from zero to a full working application in a short amount of time, as this
+                                    is what I have done for start up companies throughout my career.
                                 </p>
                             </div>
                             {/* <img
@@ -214,9 +199,9 @@ export default function AboutPage() {
                             />
                         </div>
                         <div className="w-full lg:max-w-xl lg:flex-auto">
-                            <h3 className="sr-only">Job openings</h3>
+                            <h3 className="sr-only">Job Experience</h3>
                             <ul className="-my-8 divide-y divide-gray-100">
-                                {jobOpenings.map((opening) => (
+                                {jobExperience.map((opening) => (
                                     <li key={opening.id} className="py-8">
                                         <dl className="relative flex flex-wrap gap-x-3">
                                             <dt className="sr-only">Role</dt>
