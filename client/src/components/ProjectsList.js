@@ -1,6 +1,7 @@
 
 import FinancialExpenseTrackerDashboardScreenshot from '../images/FinancialExpenseTrackerDashboardScreenshot.png'
 import NBAStatsTracker from '../images/NBAStatsTracker.png';
+import GoalsAppScreenshot3 from '../images/GoalsAppScreenshot3.png';
 import ConstuctASaveDistributorPageScreenshot from '../images/ConstuctASaveDistributorPageScreenshot.png';
 import TriviaGameScreenshot from '../images/TriviaGameScreenshot.png';
 import CryptoDashboardScreenshot from '../images/CryptoDashboardScreenshot.png';
@@ -57,6 +58,29 @@ const posts = [
     },
     {
         id: 3,
+        title: 'Weekly/Monthly Goals App',
+
+        smallDescription: 'Allows users to login and manage goals they have set for themselves ',
+        description:
+            'Focus is on the Django backend for user authentication and authorization. Providing the users the ability to add and delete personal goals/notes for themselves, saving to an SQLite database. React front end that uses React-Router-Dom to manage the pages a user can see and navigate too. Uses standard CSS for design and styling features.',
+        imageUrl:
+            GoalsAppScreenshot3,
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        demo: 'https://www.loom.com/share/3d2afe9bb27e4d80b2eca26df40eee2a?sid=dda9f8e2-39d7-4d99-93a8-ec86d0e4caf5',
+        buildType: { title: 'Full Stack', stack: 'React, Django, SQLite, CSS' },
+        author: {
+            name: 'Clay Mangum',
+            role: 'Co-Founder / CTO',
+
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            github: 'https://github.com/TrinitasAccounting/Weekly-Monthly-Goals-App',
+            deployed: 'https://app-dailyjokesapp-frontend-canada-dev-001-ajgcaycmh6f2d8b5.canadacentral-01.azurewebsites.net/'
+        },
+    },
+    {
+        id: 4,
         title: 'Construct-a-save',
 
         smallDescription: 'This app allows a contractor to receive customized pricing from multiple different suppliers. Giving the ability to price shop his supplies from each supplier in turn saving money. ',
@@ -78,7 +102,7 @@ const posts = [
         },
     },
     {
-        id: 4,
+        id: 5,
         title: 'NBA Stats Database',
 
         smallDescription: 'This app contains many NBA players and teams and provides a users the ability to add more. Allowing them to track each player\'s overall stats, teams, and coaches.',
@@ -101,7 +125,7 @@ const posts = [
         },
     },
     {
-        id: 5,
+        id: 6,
         title: 'Trivia Game',
 
         smallDescription: 'Simple command line interface game. Users answer trivia questions attempting to get their highscore on the leaderboard.',
@@ -124,7 +148,7 @@ const posts = [
         },
     },
     {
-        id: 6,
+        id: 7,
         title: 'Frankenstein Phonebook',
 
         smallDescription: 'React application built in Typescript, showing many Frankenstein characters with names and emails',
@@ -147,7 +171,7 @@ const posts = [
         },
     },
     {
-        id: 7,
+        id: 8,
         title: 'Crypto Dashboard',
 
         smallDescription: 'This app shows a list of over 100 crypto currencies, allowing the user to buy and sell crypto currencies with fake money they deposited.',

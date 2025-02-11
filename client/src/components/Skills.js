@@ -9,6 +9,7 @@ const projects = [
     { name: 'C#', initials: 'C#', bgColor: 'bg-gray-300' },
     { name: 'ASP.Net', initials: '.Net', bgColor: 'bg-gray-300' },
     { name: 'Python', initials: 'Py', bgColor: 'bg-gray-300' },
+    { name: 'Django', initials: 'Dj', bgColor: 'bg-gray-300' },
     { name: 'Flask', initials: 'Fl', bgColor: 'bg-gray-300' },
     { name: 'SQL', initials: 'SQL', bgColor: 'bg-gray-300' },
     { name: 'Azure', initials: 'Az', bgColor: 'bg-gray-300' },

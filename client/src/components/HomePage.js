@@ -53,7 +53,7 @@ export default function HomePage() {
                         Former professional beach volleyball player.
                     </p> */}
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Full stack developer with expertise using Javascript, Python, React.js, Flask, SQL, Tailwind, Material UI, and Power BI
+                        Full stack developer with expertise using Javascript, Typescript, Python, C#, React, ASP.Net, Django, Flask, and SQL
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <a

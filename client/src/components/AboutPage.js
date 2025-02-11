@@ -15,7 +15,7 @@ const timeline = [
         school: 'Clemson University'
     },
     {
-        name: 'MBA with specialization in finance and startup companies',
+        name: 'MBA with specialization in Finance and startup companies',
         description:
             'Learned everything about how a business functions and I started my first software business during this program. Launching my financial software business at the end of graduate school.',
         date: 'August 2019',
