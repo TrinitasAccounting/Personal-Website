@@ -5,17 +5,17 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Projects', href: '/projects' },
+    { name: 'Home', href: '/', method: 'Home' },
+    { name: 'Projects', href: '/projects', method: 'Projects' },
     // { name: 'Skills', href: '/' },
-    { name: 'About', href: '/aboutpage' },
+    { name: 'About', href: '/aboutpage', method: 'About' },
 ]
 
 export default function NavBar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="bg-gray-200">
+        <header className="bg-gray-200 h-[90px]">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <a href="/" className="-m-1.5 p-1.5">
@@ -35,7 +35,7 @@ export default function NavBar() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-gray-900 border-solid border-2 p-2">
+                        <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-gray-900 border-solid border-2 p-2 hover:text-orange-800 hover:text-xl">
                             {item.name}
                         </a>
                     ))}
