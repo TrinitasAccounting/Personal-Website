@@ -43,11 +43,11 @@ const jobExperience = [
     },
     {
         id: 1,
-        role: 'Algorithm Developer / Trader',
+        role: 'Quantitative Trading Developer',
         company: 'FTMO Hedge Fund',
-        timeline: 'Mar 2022 - Present',
+        timeline: 'Mar 2022 - Mar 2024',
         description:
-            'I developed trading indicators and algorithms using Python, PineScript, and MQL5 programming languages for professional traders. The algorithms trade fully automated on the ForEx market, trading $165k in total of the hedge fund\'s capital. I built out the program logic for all algorithms and worked with a developmental team half of the time. Together we built out fully functional algorithms that successfully generated profit for the hedge fund and users.',
+            'Focused on quantitative machine learning and RNN, to design long term profitable strategies for various financial markets. Used Python, NumPy, and Quant Connect, to develop fully automated trading algorithms for large client portfolios. Designed, implemented, and maintained program logic for key algorithms, working closely with the development team to create fully operational solutions that increased profitability for the hedge fund and its clients.',
 
     },
     // {
@@ -60,16 +60,16 @@ const jobExperience = [
     //         'Work as a part time CFO and Financial advisor for companies. Most companies are technology or construction related businesses. My goal is to grow revenue, increase net income, and improve cash flow.',
 
     // },
-    {
-        id: 5,
-        role: 'Sales Engineer',
-        company: 'Quail Systems',
-        timeline: 'Dec 2022 - Jan 2024',
+    // {
+    //     id: 5,
+    //     role: 'Sales Engineer',
+    //     company: 'Quail Systems',
+    //     timeline: 'Dec 2022 - Jan 2024',
 
-        description:
-            'I worked with many industries (restaurants, hospitals, hotels, cruise lines, etc.) to sell our disinfection technology into their business. Small company with industry disrupting technology, which I sold and worked with government agencies to bring a deeper understanding on the product. ',
+    //     description:
+    //         'I worked with many industries (restaurants, hospitals, hotels, cruise lines, etc.) to sell our disinfection technology into their business. Small company with industry disrupting technology, which I sold and worked with government agencies to bring a deeper understanding on the product. ',
 
-    },
+    // },
     {
         id: 2,
         role: 'Full Stack - Power BI & Javascript Developer',
@@ -144,7 +144,7 @@ export default function AboutPage() {
                                     of experience in fintech as a full stack engineer and experience starting in March 2024 working as a full stack
                                     engineer in the healthcare industry. Quick learner and problem solver, with the majority of my experience building full stack
                                     software using a React frontend, C#/.Net backend, SQL database, and hosted on a PaaS. I also have a deep
-                                    background in finance and analytics, with experience in multiple Saas businesses. I pride myself on my strong
+                                    background in finance and analytics, with experience as a Quantitative Trading Developer for a small hedge fund. I pride myself on my strong
                                     ability to self-learn, work with a team, and solve real world programming/company problems. Also, I have an extensive
                                     background in (small-medium) technology and emerging software companies. I attended Flatiron bootcamp to gain
                                     structure and expand on my knowledge and love of developing software programs to solve everyday problems.
@@ -195,7 +195,7 @@ export default function AboutPage() {
                             <img
                                 src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
                                 alt=""
-                                className="mt-8 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[1130px]"
+                                className="mt-8 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[930px]"
                             />
                         </div>
                         <div className="w-full lg:max-w-xl lg:flex-auto">

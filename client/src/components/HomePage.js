@@ -27,7 +27,7 @@ export default function HomePage() {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
             </svg>
             <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
-                <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
+                <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-1">
                     <a href="/aboutpage" className="group block flex-shrink-0">
                         <div className="flex items-center">
                             <div>
@@ -52,8 +52,11 @@ export default function HomePage() {
                     {/* <p className="mt-6 text-lg leading-8 text-gray-600">
                         Former professional beach volleyball player.
                     </p> */}
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
+                    <p className="mt-6 text-lg leading-8 text-gray-700">
                         Full stack developer with expertise using Javascript, Typescript, Python, C#, React, ASP.Net, Django, Flask, and SQL
+                    </p>
+                    <p className="mt-4 text-md leading-8 text-gray-700">
+                        Additionally, multiple years of experience as a Python focused quantitative trading developer. With expertise in Python and QuantConnect.
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <a
