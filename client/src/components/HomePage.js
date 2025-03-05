@@ -56,14 +56,14 @@ export default function HomePage() {
                         Full stack developer with expertise using Javascript, Typescript, Python, C#, React, ASP.Net, Django, Flask, and SQL
                     </p>
                     <p className="mt-4 text-md leading-8 text-gray-700">
-                        Additionally, multiple years of experience as a Python focused quantitative trading developer. With expertise in Python and QuantConnect.
+                        Additionally, multiple years of experience as a Python focused quantitative trading developer. With expertise in Python, Pandas, Numpy, and QuantConnect.
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                         <a
                             href="/projects"
                             className="rounded-md bg-orange-700 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
-                            My Projects
+                            Clay's Projects
                         </a>
                         <a href="/aboutpage" className="text-sm font-semibold leading-6 text-gray-900">
                             Learn more about me<span aria-hidden="true">→</span>
