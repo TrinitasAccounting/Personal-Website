@@ -47,7 +47,7 @@ export default function HomePage() {
 
                     </div>
                     <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                        Software Engineer and SaaS business enthusiast
+                        Sales Engineer, Part Time Programmer, and SaaS business enthusiast
                     </h1>
                     {/* <p className="mt-6 text-lg leading-8 text-gray-600">
                         Former professional beach volleyball player.
