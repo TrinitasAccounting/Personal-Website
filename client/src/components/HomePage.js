@@ -53,11 +53,11 @@ export default function HomePage() {
                         Former professional beach volleyball player.
                     </p> */}
                     <p className="mt-6 text-lg leading-8 text-gray-700">
-                        Full stack developer with expertise using Javascript, Typescript, Python, C#, React, ASP.Net, Django, Flask, and SQL
+                        Sales Engineer and Developer with expertise using Javascript, Typescript, Python, C#, React, ASP.Net, Django, Flask, and SQL
                     </p>
-                    <p className="mt-4 text-md leading-8 text-gray-700">
+                    {/* <p className="mt-4 text-md leading-8 text-gray-700">
                         Additionally, multiple years of experience as a Python focused quantitative trading developer. With expertise in Python, Pandas, Numpy, and QuantConnect.
-                    </p>
+                    </p> */}
                     <div className="mt-10 flex items-center gap-x-6">
                         <a
                             href="/projects"

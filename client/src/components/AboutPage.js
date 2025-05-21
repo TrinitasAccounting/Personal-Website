@@ -26,8 +26,8 @@ const timeline = [
         name: 'Full Stack Coding Bootcamp',
         description:
             'Flatiron program was heavily focused on learning Javascript and Python. And how to build real world full stack applications using Flask, SQL, and React.js',
-        date: 'May 2024',
-        dateTime: '2024-05',
+        date: 'May 2023',
+        dateTime: '2023-05',
         school: 'Flatiron School'
     }
 ]
@@ -35,21 +35,23 @@ const timeline = [
 const jobExperience = [
     {
         id: 3,
-        role: 'Full Stack Software Engineer II',
+        role: 'Lead Sales Engineer and Software Engineer',
         company: 'MyPrice.Best',
         timeline: 'May 2024 - Present',
         description:
-            'Working with a start-up company in the healthcare industry, to develop and build their software web application. Building out a full stack application with React.js, C#/.Net, Azure SQL and Postgresql databases, and hosted on a PaaS. Using React and .Net to handle user authentication and authorization. Using React front-end to control what pages and actions are visible to a user based on the type of user logged in. Healthcare company, so client information is extremely confidential. I use Bcrypt.net library as a encryption to protect all sensitive information ',
+            `Building out a full stack SaaS application in the Healthcare and Medical Sales industry using a customer first focused approach. The software stack utilizes React.js for frontend (also Redux, React Query, Tailwind, Material UI, Twilio, AG Grid, and Dromo), Python and C#/.Net for backend, Azure SQL database, and hosted on a PaaS using CI/CD methods. Weekly I am speaking to new and existing customers, understanding their problems and how we could solve their needs. My team and I, would then implement each new feature into the software, working closely with the customers to make sure it solved their problem and functioned accordingly. 
+            Leading collaborations with client IT departments to architect and implement secure API integrations, ensuring seamless compatibility between our software platform and existing enterprise cloud infrastructures
+            The software application is built to help health care providers save money on their medical supply expenses (veterinarians and dental offices as well). We do this by connecting them with and sharing their product list with medical supply distributors. Each distributor is able to input custom pricing for each product varying by customer. The distributor can easily adjust the pricing daily or weekly (to stay competitive against other distributors pricing that customers products), in turn saving the healthcare facility well over 30%+ on their medical supply cost per year.`,
     },
-    {
-        id: 1,
-        role: 'Quantitative Trading Developer',
-        company: 'FTMO Hedge Fund',
-        timeline: 'Mar 2022 - Mar 2024',
-        description:
-            'Focused on quantitative machine learning and RNN, to design long term profitable strategies for various financial markets. Used Python, NumPy, and Quant Connect, to develop fully automated trading algorithms for large client portfolios. Designed, implemented, and maintained program logic for key algorithms, working closely with the development team to create fully operational solutions that increased profitability for the hedge fund and its clients.',
+    // {
+    //     id: 1,
+    //     role: 'Quantitative Trading Developer',
+    //     company: 'FTMO Hedge Fund',
+    //     timeline: 'Mar 2022 - Mar 2024',
+    //     description:
+    //         'Focused on quantitative machine learning and RNN, to design long term profitable strategies for various financial markets. Used Python, NumPy, and Quant Connect, to develop fully automated trading algorithms for large client portfolios. Designed, implemented, and maintained program logic for key algorithms, working closely with the development team to create fully operational solutions that increased profitability for the hedge fund and its clients.',
 
-    },
+    // },
     // {
     //     id: 4,
     //     role: 'Outsourced CFO',
@@ -60,24 +62,29 @@ const jobExperience = [
     //         'Work as a part time CFO and Financial advisor for companies. Most companies are technology or construction related businesses. My goal is to grow revenue, increase net income, and improve cash flow.',
 
     // },
-    // {
-    //     id: 5,
-    //     role: 'Sales Engineer',
-    //     company: 'Quail Systems',
-    //     timeline: 'Dec 2022 - Jan 2024',
+    {
+        id: 5,
+        role: 'Sales Engineer',
+        company: 'Quail Systems',
+        timeline: 'Dec 2022 - May 2024',
 
-    //     description:
-    //         'I worked with many industries (restaurants, hospitals, hotels, cruise lines, etc.) to sell our disinfection technology into their business. Small company with industry disrupting technology, which I sold and worked with government agencies to bring a deeper understanding on the product. ',
+        description:
+            `Transformed a startup with under $100k revenue into an industry leader by securing contracts with major restaurant chains and hospitals, generating $42 million in sales revenue over the upcoming five years through compelling C-Suite presentations with a 35% advancement rate and 90% operational team buy-in
+            Led international sales to the operations teams across 10+ countries, managing product delivery, installation, training, and trial periods while collaborating with key opinion leaders to complete product resting and establish industry leadership
+            Managed enterprise-level relationships with 10+ high-value clients (each exceeding $100M in revenue), customizing technology solutions to specific needs, educating stakeholders on innovative applications, and maintaining partnerships that drove continued expansion
+            Collaborated with biology labs, restaurants, hospitals, animal farms, etc., communicating and installing our technology/equipment inside of their facilities. Working closely with labs/customers to design and complete proper research/testing and data science protocols`,
 
-    // },
+    },
     {
         id: 2,
-        role: 'Full Stack - Power BI & Javascript Developer',
+        role: 'Sales Engineer and Full Stack Developer',
         company: 'Founder/Owner of Trinitas Accounting, LLC',
         timeline: 'Feb 2019 - Feb 2022',
 
         description:
-            'Designed financial software analytics using Power BI, Javascript, and Tableau, that I launched to small business owners. Queried data directly from their accounting software, to present real time financial information to the users (via mobile and desktop). Worked directly with a Quickbooks API and pulled data into a relational database, so Power BI could properly map it. Building our analytic visualizations for the database data overall. Developed and successfully updated & maintained this software for business owners until 2022.',
+            `Founded a Saas Fintech business that automated small business accounting and cash flow tracking using Javascript, Python, and Power BI, providing real-time financial dashboards for contractors. Used secured API's to pull data from thrid party software like Quickbooks. Our primary customer base was small to medium sized contractors. 
+            Generated initial client base through proactive cold calling and on-site visits to local businesses, while conducting product demonstrations to hundreds of contractor with a 45% conversion rate on warm leads
+            Implemented innovative “connect-share-partner” sales strategies that drove 50% revenue growth and significantly expanded the company`,
     },
 ]
 
@@ -138,20 +145,15 @@ export default function AboutPage() {
                                     Experienced in Python with Flask and JavaScript based programming with a background in finance and analytics. Possess a strong ability to self-learn, work with a team, and solve real world programming problems. Also has an extensive background in (small-medium) technology and emerging software companies. I began self learning 6 years ago and attended Flatiron bootcamp to expand on my knowledge and love of developing software programs to solve everyday problems. My skills/experience can benefit any company looking for someone who can see how a software offering generates revenue for a company and understands how to drive positive impact to the product and company overall.
                                 </p> */}
                                 <p className="text-lg leading-8 text-gray-600">
-                                    I was raised on a small farm in Williamston, South Carolina. I played indoor Men’s Volleyball
-                                    at Clemson University, and pursued my dream playing professional beach volleyball for two years after
-                                    my undergrad. I am a full stack software engineer experienced in React (Javascript/Typescript), C#/.Net, Python SQL, etc. Having 3 years
-                                    of experience in fintech as a full stack engineer and experience starting in March 2024 working as a full stack
-                                    engineer in the healthcare industry. Quick learner and problem solver, with the majority of my experience building full stack
-                                    software using a React frontend, C#/.Net backend, SQL database, and hosted on a PaaS. I also have a deep
-                                    background in finance and analytics, with experience as a Quantitative Trading Developer for a small hedge fund. I pride myself on my strong
-                                    ability to self-learn, work with a team, and solve real world programming/company problems. Also, I have an extensive
-                                    background in (small-medium) technology and emerging software companies. I attended Flatiron bootcamp to gain
-                                    structure and expand on my knowledge and love of developing software programs to solve everyday problems.
-                                    My skills/experience can benefit any company looking for someone who can see how a software offering generates
-                                    revenue for a company and understands how to drive positive impact to the product and company overall.
-                                    I am very experienced and comfortable taking a concept from zero to a full working application in a short amount of time, as this
-                                    is what I have done for start up companies throughout my career.
+                                    My name is Clay Mangum, holder of a B.S. in Engineering from Clemson University. After graduation, I pursued professional beach volleyball while simultaneously taking business courses at UCLA. I later earned my M.B.A from Clemson with a specialization in Finance.
+
+                                    My career began as an outsourced CFO/Accountant for small-to-medium businesses before launching an early-stage Fintech SaaS company. I was lead developer and head of sales for a Fintech software app with a real-time financial dashboard using Python, Power BI, React, HTML/JavaScript, and Tableau. This solution queried data from QuickBooks APIs, giving business owners visibility into their financial health. As lead sales generator, I presented to C-suite executives, converting 45% of warm leads to long-term clients.
+
+                                    I then transitioned from Fintech sales and development, into a sales engineering role at an early-stage startup in an innovative technology sector. My responsibilities included managing enterprise-level clients, leading sales to operations and finance teams for domestic and international customers, maintaining customer relationships, and guiding customers through product implementation. These efforts helped transform a sub-$100K revenue startup into an industry leader by securing contracts with major restaurant chains and hospitals, generating $42 million in sales revenue over five years.
+
+                                    Currently, I'm a lead developer and customer liaison in Full Stack Software Engineering for a healthcare and medical sales startup. Using React, Python, C#/.NET, and Azure SQL for software development, I prioritize ongoing communication with customers to understand their needs and implement targeted software solutions. Lead the development team in building a scalable, industry-optimized application that reduces medical supply costs by over 50% for users.
+
+                                    I'm passionate about sales engineering and driving growth for organizations of all sizes. Leveraging my background in SaaS and software development, I thrive on helping clients solve complex challenges through innovative technology solutions that enhance their operational efficiency. Throughout my career, I've embraced fast-paced learning opportunities in the sales engineering field, and I'm grateful for the experiences that have shaped my journey. With my faith in God guiding my path, I look forward to continued success and making meaningful contributions in the years ahead.
                                 </p>
                             </div>
                             {/* <img
@@ -195,7 +197,7 @@ export default function AboutPage() {
                             <img
                                 src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
                                 alt=""
-                                className="mt-8 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[930px]"
+                                className="mt-8 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[1400px]"
                             />
                         </div>
                         <div className="w-full lg:max-w-xl lg:flex-auto">
@@ -255,7 +257,7 @@ export default function AboutPage() {
                             </h1>
                             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-2 xl:row-start-2">
                                 <p className="text-lg leading-8 text-gray-600">
-                                    How I moved from learning programming during my undergradute degree, to building a software business during graduate school, and then refinning and deeping my skills specifically related to software engineering.
+                                    How I moved from learning programming during my undergradute degree, to building and selling a software business during graduate school, and then refinning and deeping my skills specifically related to sales engineering and software development.
                                 </p>
                             </div>
                             {/* <img
